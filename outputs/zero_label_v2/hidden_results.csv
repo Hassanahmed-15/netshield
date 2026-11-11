@@ -1,0 +1,3 @@
+method,sources,view,consistent_features_only,self_training,variant,n_features,balanced_accuracy,accuracy,roc_auc,pr_auc,f1,recall,fpr,flag_all_f1,attack_rate,n
+"version 1, locked in section 9",UNSW+ToN+CIC2018,version 1 (1 minute),False,True,model,11,0.815450915752977,0.85019,0.915248754566474,0.7192444923401503,0.3925472386667748,0.7757584499254772,0.14485661841952296,0.1174645636235795,0.062397,1000000
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,three windows + relative,True,True,model + computer smoothing,10,0.9599713058253302,0.980135,0.9813031098434011,0.9501972806620641,0.8549184578193584,0.9369287166434551,0.016986104992794904,0.11759213680587385,0.062469,1000000

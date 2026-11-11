@@ -1,0 +1,3 @@
+Dataset,Missing cells,Infinite numeric cells,Duplicate rows,Constant features,Near-constant features (>=99.5%),Constant feature names,Near-constant feature names
+UNSW-NB15,0,0,0,0,0,,
+CICIDS2017,1358,4376,308381,8,12,"Bwd PSH Flags, Bwd URG Flags, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate","Bwd PSH Flags, Fwd URG Flags, Bwd URG Flags, RST Flag Count, CWE Flag Count, ECE Flag Count, Fwd Avg Bytes/Bulk, Fwd Avg Packets/Bulk, Fwd Avg Bulk Rate, Bwd Avg Bytes/Bulk, Bwd Avg Packets/Bulk, Bwd Avg Bulk Rate"

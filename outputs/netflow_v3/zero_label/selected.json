@@ -1,0 +1,6 @@
+{
+ "view": "per-computer",
+ "align": "none",
+ "self_training": true,
+ "dev_mean_roc": 0.8713297238296677
+}

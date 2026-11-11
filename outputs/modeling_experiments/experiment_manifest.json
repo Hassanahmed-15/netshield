@@ -1,0 +1,46 @@
+{
+  "project": "NetShield",
+  "phase": "05_modeling_experiments",
+  "random_state": 42,
+  "primary_task": "binary intrusion detection",
+  "primary_metrics": [
+    "precision",
+    "recall",
+    "f1",
+    "macro_f1",
+    "pr_auc",
+    "fpr"
+  ],
+  "within_dataset": [
+    "UNSW_native_within",
+    "CICIDS_native_within"
+  ],
+  "cross_dataset": [
+    "UNSW_to_CICIDS_common",
+    "CICIDS_to_UNSW_common"
+  ],
+  "common_features": [
+    "flow_duration_sec",
+    "fwd_packets",
+    "bwd_packets",
+    "fwd_bytes",
+    "bwd_bytes",
+    "total_packets",
+    "total_bytes",
+    "packet_rate",
+    "fwd_packet_rate",
+    "bwd_packet_rate",
+    "avg_packet_size"
+  ],
+  "first_intervention": "class_weight_balanced",
+  "destination_test_rule": "not used for tuning",
+  "next_stage": [
+    "distribution-shift vs performance-drop analysis",
+    "carefully justified skew transformations",
+    "scaling sensitivity",
+    "feature redundancy sensitivity",
+    "source-file-aware CICIDS evaluation",
+    "confusion matrices and error analysis",
+    "feature importance"
+  ]
+}

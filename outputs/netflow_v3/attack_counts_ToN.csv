@@ -1,0 +1,11 @@
+dataset,Attack,Label,count_all
+ToN,Benign,0,16792214
+ToN,scanning,1,1358977
+ToN,ddos,1,4141256
+ToN,password,1,1594777
+ToN,xss,1,2834435
+ToN,mitm,1,6013
+ToN,dos,1,203456
+ToN,Backdoor,1,203384
+ToN,injection,1,381777
+ToN,ransomware,1,3971

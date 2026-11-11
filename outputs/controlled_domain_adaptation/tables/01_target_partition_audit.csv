@@ -1,0 +1,5 @@
+direction,partition,rows
+CICIDS_to_UNSW,adaptation,16466
+CICIDS_to_UNSW,evaluation,65866
+UNSW_to_CICIDS,adaptation,566148
+UNSW_to_CICIDS,evaluation,2264595

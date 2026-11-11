@@ -1,0 +1,16 @@
+dataset,Attack,Label,count_all
+CIC2018,Benign,0,17514626
+CIC2018,FTP-BruteForce,1,386720
+CIC2018,SSH-Bruteforce,1,188474
+CIC2018,DoS_attacks-Slowloris,1,36040
+CIC2018,DDOS_attack-HOIC,1,1032311
+CIC2018,Brute_Force_-Web,1,1618
+CIC2018,Brute_Force_-XSS,1,480
+CIC2018,SQL_Injection,1,440
+CIC2018,Infilteration,1,188152
+CIC2018,Bot,1,207703
+CIC2018,DoS_attacks-SlowHTTPTest,1,105550
+CIC2018,DDoS_attacks-LOIC-HTTP,1,288589
+CIC2018,DoS_attacks-GoldenEye,1,61300
+CIC2018,DoS_attacks-Hulk,1,100076
+CIC2018,DDOS_attack-LOIC-UDP,1,3450

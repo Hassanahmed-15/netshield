@@ -1,0 +1,34 @@
+{
+  "phase": "08_domain_adaptation_coral",
+  "goal": "Improve cross-dataset NIDS transfer through unsupervised distribution alignment.",
+  "random_state": 42,
+  "common_features": [
+    "flow_duration_sec",
+    "fwd_packets",
+    "bwd_packets",
+    "fwd_bytes",
+    "bwd_bytes",
+    "total_packets",
+    "total_bytes",
+    "packet_rate",
+    "fwd_packet_rate",
+    "bwd_packet_rate",
+    "avg_packet_size"
+  ],
+  "directions": [
+    "UNSW_to_CICIDS",
+    "CICIDS_to_UNSW"
+  ],
+  "methods": [
+    "common_baseline",
+    "CORAL",
+    "CORAL_class_weighted"
+  ],
+  "models": [
+    "Logistic Regression",
+    "Random Forest"
+  ],
+  "cicids_alignment_sample": 300000,
+  "target_labels_used_for_alignment": false,
+  "target_labels_used_for_model_selection": false
+}

@@ -1,0 +1,58 @@
+{
+  "project": "NetShield",
+  "phase": "07_semantic_alignment_and_shift_analysis",
+  "random_state": 42,
+  "models": [
+    "Logistic Regression",
+    "Decision Tree",
+    "Random Forest",
+    "Gradient Boosting"
+  ],
+  "common_features": [
+    "flow_duration_sec",
+    "fwd_packets",
+    "bwd_packets",
+    "fwd_bytes",
+    "bwd_bytes",
+    "total_packets",
+    "total_bytes",
+    "packet_rate",
+    "fwd_packet_rate",
+    "bwd_packet_rate",
+    "avg_packet_size"
+  ],
+  "cicids_training_cap": 600000,
+  "rf_trees": 100,
+  "hist_gradient_boosting_iterations": 100,
+  "primary_metrics": [
+    "precision",
+    "recall",
+    "f1",
+    "macro_f1",
+    "pr_auc",
+    "fpr",
+    "fnr",
+    "confusion_matrix"
+  ],
+  "experiments": [
+    "UNSW_common_within",
+    "CICIDS_common_within",
+    "UNSW_to_CICIDS_common",
+    "CICIDS_to_UNSW_common",
+    "UNSW_to_CICIDS_capture_wise"
+  ],
+  "destination_tuning": false,
+  "source_file_as_predictor": false,
+  "zeros_preserved": true,
+  "inf_to_nan": true,
+  "common_representation_unit_alignment": {
+    "CICIDS_Flow_Duration": "microseconds converted to seconds",
+    "UNSW_directional_packet_rates": "derived from packet counts / duration"
+  },
+  "notes": [
+    "Literal raw-feature cross-dataset transfer is not claimed because the datasets have no exact shared predictive schema.",
+    "Common semantic features are evaluated as a controlled representation, not as a guarantee of improved performance.",
+    "Capture-wise analysis uses source_file only for grouping evaluation rows.",
+    "No destination dataset was used for hyperparameter tuning."
+  ]
+}

@@ -1,0 +1,25 @@
+experiment,direction,family,n,recall,roc_vs_benign
+"all attacks, locked config",UNSW->CICIDS,Bot,1953,0.1264720942140297,0.4051816820063138
+"all attacks, locked config",UNSW->CICIDS,DDoS,128011,0.8039934068166017,0.7718693390315539
+"all attacks, locked config",UNSW->CICIDS,Infiltration,36,0.2777777777777778,0.348104630668275
+"all attacks, locked config",UNSW->CICIDS,PortScan,90768,0.010168781949585757,0.35699581970711414
+"all attacks, locked config",UNSW->CICIDS,Web Attack ï¿½ Brute Force,1470,0.8727891156462585,0.7597086316322069
+"all attacks, locked config",UNSW->CICIDS,Web Attack ï¿½ Sql Injection,21,0.5714285714285714,0.5828188341962891
+"all attacks, locked config",UNSW->CICIDS,Web Attack ï¿½ XSS,652,0.9585889570552147,0.8113470406396472
+"all attacks, locked config",CICIDS->UNSW,Analysis,677,0.9025110782865583,0.8437913689169229
+"all attacks, locked config",CICIDS->UNSW,Backdoor,583,0.8747855917667239,0.8210723424968709
+"all attacks, locked config",CICIDS->UNSW,DoS,4089,0.7598434825140621,0.7693554163113958
+"all attacks, locked config",CICIDS->UNSW,Exploits,11132,0.5222781171397772,0.6466142056986919
+"all attacks, locked config",CICIDS->UNSW,Fuzzers,6062,0.49241174529858134,0.6728422940426406
+"all attacks, locked config",CICIDS->UNSW,Generic,18871,0.9807641354459223,0.8982841468462262
+"all attacks, locked config",CICIDS->UNSW,Reconnaissance,3496,0.49170480549199086,0.7189359499659843
+"all attacks, locked config",CICIDS->UNSW,Shellcode,378,0.5767195767195767,0.6848377305877306
+"all attacks, locked config",CICIDS->UNSW,Worms,44,0.29545454545454547,0.5334680589680589
+"shared attacks only, locked config",UNSW->CICIDS,DDoS,128011,0.9391614783104577,0.9757609217846063
+"shared attacks only, locked config",UNSW->CICIDS,PortScan,90768,0.002533932663493742,0.272824585259831
+"shared attacks only, locked config",CICIDS->UNSW,DoS,4089,0.8461726583516752,0.6695739293952793
+"shared attacks only, locked config",CICIDS->UNSW,Reconnaissance,3496,0.9979977116704806,0.7189391118807595
+"shared attacks, features chosen with dev labels",UNSW->CICIDS,DDoS,128011,0.6354610150690175,0.9749450740546443
+"shared attacks, features chosen with dev labels",UNSW->CICIDS,PortScan,90768,0.0009254362771020624,0.5279944595241797
+"shared attacks, features chosen with dev labels",CICIDS->UNSW,DoS,4089,0.76008804108584,0.8019943751528491
+"shared attacks, features chosen with dev labels",CICIDS->UNSW,Reconnaissance,3496,0.9445080091533181,0.7250002048673387

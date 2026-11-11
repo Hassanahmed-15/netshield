@@ -1,0 +1,9 @@
+Semantic concept,UNSW feature,CICIDS feature,UNSW n,CICIDS n,KS statistic,p-value
+Flow duration,dur,Flow Duration,50000,50000,0.9359400000000001,0.0
+Source/forward bytes,sbytes,Total Length of Fwd Packets,50000,50000,0.6658200000000001,0.0
+Forward packet rate,sload,Fwd Packets/s,50000,50000,0.56554,0.0
+Source/forward packet count,spkts,Total Fwd Packets,50000,50000,0.3336,0.0
+Overall packet rate,rate,Flow Packets/s,50000,50000,0.33216,0.0
+Destination/backward packet count,dpkts,Total Backward Packets,50000,50000,0.30522000000000005,0.0
+Backward packet rate,dload,Bwd Packets/s,50000,50000,0.30486,0.0
+Destination/backward bytes,dbytes,Total Length of Bwd Packets,50000,50000,0.21626000000000004,0.0

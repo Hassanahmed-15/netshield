@@ -1,0 +1,9 @@
+Semantic concept,UNSW feature,UNSW zero %,CICIDS feature,CICIDS zero %,Absolute difference (pp)
+Destination/backward packet count,dpkts,46.682423071101745,Total Backward Packets,16.021200087750813,30.66122298335093
+Backward packet rate,dload,46.68824440278958,Bwd Packets/s,16.06012979631143,30.62811460647815
+Destination/backward bytes,dbytes,46.682423071101745,Total Length of Bwd Packets,25.002128416461684,21.68029465464006
+Source/forward bytes,sbytes,0.0,Total Length of Fwd Packets,15.867565511952161,15.867565511952161
+Overall packet rate,rate,1.539936275822457,Flow Packets/s,0.0,1.539936275822457
+Forward packet rate,sload,1.5430409860559702,Fwd Packets/s,0.10534336744805163,1.4376976186079184
+Flow duration,dur,1.3998362265351822,Flow Duration,0.1012808298033414,1.2985553967318408
+Source/forward packet count,spkts,0.0,Total Fwd Packets,0.0,0.0

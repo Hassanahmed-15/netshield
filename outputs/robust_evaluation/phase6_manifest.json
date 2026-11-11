@@ -1,0 +1,53 @@
+{
+  "project": "NetShield",
+  "phase": "06_robust_evaluation_and_error_analysis",
+  "random_state": 42,
+  "run_mode": "screening",
+  "screening_train_cap": 600000,
+  "rf_trees": 100,
+  "hist_gradient_boosting_iterations": 100,
+  "primary_task": "binary intrusion detection",
+  "primary_metrics": [
+    "precision",
+    "recall",
+    "f1",
+    "macro_f1",
+    "pr_auc",
+    "fpr",
+    "fnr",
+    "confusion_matrix"
+  ],
+  "cicids_splits": [
+    "random_stratified",
+    "duplicate_aware",
+    "capture_aware"
+  ],
+  "capture_test_files": [
+    "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+    "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+    "Monday-WorkingHours.pcap_ISCX.csv"
+  ],
+  "native_feature_rule": "identifiers and metadata excluded; constant CICIDS features removed",
+  "source_file_used_as_predictor": false,
+  "duplicate_feature_hash_used_only_for_grouping": true,
+  "cross_dataset_representation": [
+    "flow_duration_sec",
+    "fwd_packets",
+    "bwd_packets",
+    "fwd_bytes",
+    "bwd_bytes",
+    "total_packets",
+    "total_bytes",
+    "packet_rate",
+    "fwd_packet_rate",
+    "bwd_packet_rate",
+    "avg_packet_size"
+  ],
+  "next_analysis": [
+    "compare random vs duplicate-aware vs capture-aware CICIDS performance",
+    "interpret asymmetric cross-dataset errors",
+    "compare feature importance across datasets",
+    "connect distribution shift with transfer degradation",
+    "perform only justified preprocessing sensitivity experiments"
+  ]
+}

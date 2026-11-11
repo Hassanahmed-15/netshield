@@ -1,0 +1,3 @@
+Dataset,Rows,Columns including metadata,Numerical columns,Non-numerical columns,Missing cells,Infinite numeric cells,Duplicate rows,Memory (MB)
+UNSW-NB15,257673,46,41,5,0,0,0,150.87986087799072
+CICIDS2017,2830743,80,78,2,1358,4376,256479,2078.137667655945

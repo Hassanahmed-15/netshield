@@ -1,0 +1,14 @@
+NetShield Dataset Comparison — methodological notes
+
+1. This notebook is exploratory.
+2. Raw datasets are not modified.
+3. Label normalization is used only for analysis.
+4. Candidate semantic mappings are not automatically accepted as final mappings.
+5. KS statistics are used as distribution-shift diagnostics; p-values are not
+   treated as practical effect sizes because the datasets are large.
+6. No scaling, SMOTE, final feature selection, or train/test fitting is done here.
+7. Final fitted preprocessing must use training data only.
+8. Test data must remain untouched until evaluation.
+9. The intended ML comparisons are:
+   UNSW→UNSW, CICIDS→CICIDS, UNSW→CICIDS, CICIDS→UNSW,
+   and cross-dataset transfer using verified common semantic features.

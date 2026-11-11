@@ -1,0 +1,12 @@
+,median
+flow_duration_sec,0.001582
+fwd_packets,2.0
+bwd_packets,2.0
+fwd_bytes,430.0
+bwd_bytes,164.0
+total_packets,4.0
+total_bytes,802.0
+packet_rate,4192.8721174004195
+fwd_packet_rate,2058.672156459084
+bwd_packet_rate,4.800330262722075
+avg_packet_size,91.5

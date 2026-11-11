@@ -1,0 +1,32 @@
+{
+  "phase": 19,
+  "method": "DANN",
+  "random_state": 42,
+  "target_pool_n": 600000,
+  "target_adaptation_n": 300000,
+  "target_eval_n": 300000,
+  "features": [
+    "flow_duration_sec",
+    "fwd_packets",
+    "bwd_packets",
+    "fwd_bytes",
+    "bwd_bytes",
+    "total_packets",
+    "total_bytes",
+    "packet_rate",
+    "fwd_packet_rate",
+    "bwd_packet_rate",
+    "avg_packet_size"
+  ],
+  "epochs": 12,
+  "batch_size": 1024,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "domain_weight": 0.5,
+  "device": "cpu",
+  "target_labels_used_for_training": false,
+  "target_labels_used_for_threshold": false,
+  "benchmark_f1": 0.35799881466919153,
+  "dann_f1": 0.12403751114968299,
+  "dann_gain": -0.23396130351950856
+}

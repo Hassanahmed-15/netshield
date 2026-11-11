@@ -1,0 +1,465 @@
+experiment,split,model,feature,importance
+CICIDS_native_robustness,random_stratified,Decision Tree,Destination Port,0.10228140620436936
+CICIDS_native_robustness,random_stratified,Decision Tree,Flow Duration,0.0006159581330566803
+CICIDS_native_robustness,random_stratified,Decision Tree,Total Fwd Packets,0.0
+CICIDS_native_robustness,random_stratified,Decision Tree,Total Backward Packets,1.2514185335061282e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Total Length of Fwd Packets,0.0005240390311089961
+CICIDS_native_robustness,random_stratified,Decision Tree,Total Length of Bwd Packets,0.0009865404402330967
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd Packet Length Max,0.0001060545123206801
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd Packet Length Min,0.0007239407923737587
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd Packet Length Mean,7.600688588380985e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd Packet Length Std,0.009407074443353713
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd Packet Length Max,2.918801537304454e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd Packet Length Min,0.0
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd Packet Length Mean,0.0001319984510775032
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd Packet Length Std,0.37749337910547226
+CICIDS_native_robustness,random_stratified,Decision Tree,Flow Bytes/s,0.0005488514977160264
+CICIDS_native_robustness,random_stratified,Decision Tree,Flow Packets/s,0.0007917785586892284
+CICIDS_native_robustness,random_stratified,Decision Tree,Flow IAT Mean,0.0001453909466071926
+CICIDS_native_robustness,random_stratified,Decision Tree,Flow IAT Std,0.0007029910939524786
+CICIDS_native_robustness,random_stratified,Decision Tree,Flow IAT Max,0.0007582922957382917
+CICIDS_native_robustness,random_stratified,Decision Tree,Flow IAT Min,0.003844666882441064
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd IAT Total,0.00012355734874657407
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd IAT Mean,0.00018169725786343935
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd IAT Std,0.00011806870744765411
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd IAT Max,0.006605818302217686
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd IAT Min,0.00497380887042115
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd IAT Total,6.341473065020402e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd IAT Mean,0.001926063614447496
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd IAT Std,0.002145885477199384
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd IAT Max,0.00011814813384932039
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd IAT Min,0.00046601721311345933
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd PSH Flags,3.145819434650364e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd URG Flags,0.0
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd Header Length,0.0005524030446584676
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd Header Length,0.13132403974897483
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd Packets/s,0.0003196047084615193
+CICIDS_native_robustness,random_stratified,Decision Tree,Bwd Packets/s,0.0013323458382227234
+CICIDS_native_robustness,random_stratified,Decision Tree,Min Packet Length,0.0002870490025465277
+CICIDS_native_robustness,random_stratified,Decision Tree,Max Packet Length,0.09257175554247167
+CICIDS_native_robustness,random_stratified,Decision Tree,Packet Length Mean,0.0013410403637885648
+CICIDS_native_robustness,random_stratified,Decision Tree,Packet Length Std,0.0010849838230282706
+CICIDS_native_robustness,random_stratified,Decision Tree,Packet Length Variance,0.0002690738727374055
+CICIDS_native_robustness,random_stratified,Decision Tree,FIN Flag Count,5.789806927107667e-07
+CICIDS_native_robustness,random_stratified,Decision Tree,SYN Flag Count,0.0
+CICIDS_native_robustness,random_stratified,Decision Tree,RST Flag Count,0.0
+CICIDS_native_robustness,random_stratified,Decision Tree,PSH Flag Count,2.2235492417293667e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,ACK Flag Count,1.8755207590604194e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,URG Flag Count,0.00021179876971767807
+CICIDS_native_robustness,random_stratified,Decision Tree,CWE Flag Count,0.0
+CICIDS_native_robustness,random_stratified,Decision Tree,ECE Flag Count,0.0
+CICIDS_native_robustness,random_stratified,Decision Tree,Down/Up Ratio,0.00010198860681932326
+CICIDS_native_robustness,random_stratified,Decision Tree,Average Packet Size,0.18817372096456864
+CICIDS_native_robustness,random_stratified,Decision Tree,Avg Fwd Segment Size,9.034385710704263e-06
+CICIDS_native_robustness,random_stratified,Decision Tree,Avg Bwd Segment Size,0.0011591221340208754
+CICIDS_native_robustness,random_stratified,Decision Tree,Fwd Header Length.1,8.499675544786859e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Subflow Fwd Packets,0.00010284496462911891
+CICIDS_native_robustness,random_stratified,Decision Tree,Subflow Fwd Bytes,1.3702151661234796e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Subflow Bwd Packets,4.516812620263297e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Subflow Bwd Bytes,0.0002852238007339247
+CICIDS_native_robustness,random_stratified,Decision Tree,Init_Win_bytes_forward,0.027672763529631127
+CICIDS_native_robustness,random_stratified,Decision Tree,Init_Win_bytes_backward,0.013889374179621652
+CICIDS_native_robustness,random_stratified,Decision Tree,act_data_pkt_fwd,0.0015920193942005705
+CICIDS_native_robustness,random_stratified,Decision Tree,min_seg_size_forward,0.019346350381572366
+CICIDS_native_robustness,random_stratified,Decision Tree,Active Mean,6.160791322627467e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Active Std,0.0019932805825619198
+CICIDS_native_robustness,random_stratified,Decision Tree,Active Max,1.6265031218750544e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Active Min,9.319056769815376e-06
+CICIDS_native_robustness,random_stratified,Decision Tree,Idle Mean,0.0
+CICIDS_native_robustness,random_stratified,Decision Tree,Idle Std,4.1377737890099426e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Idle Max,6.506575329107644e-05
+CICIDS_native_robustness,random_stratified,Decision Tree,Idle Min,6.710082950848801e-05
+CICIDS_native_robustness,random_stratified,Random Forest,Destination Port,0.056832351474124215
+CICIDS_native_robustness,random_stratified,Random Forest,Flow Duration,0.007945998563113758
+CICIDS_native_robustness,random_stratified,Random Forest,Total Fwd Packets,0.011735131283638284
+CICIDS_native_robustness,random_stratified,Random Forest,Total Backward Packets,0.008706974114977844
+CICIDS_native_robustness,random_stratified,Random Forest,Total Length of Fwd Packets,0.02386652458204308
+CICIDS_native_robustness,random_stratified,Random Forest,Total Length of Bwd Packets,0.03880951747108066
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd Packet Length Max,0.015044408412734345
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd Packet Length Min,0.008077402149672843
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd Packet Length Mean,0.024078295313212275
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd Packet Length Std,0.003770271076669102
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd Packet Length Max,0.031706880016081414
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd Packet Length Min,0.006899001097096516
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd Packet Length Mean,0.057645441692706925
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd Packet Length Std,0.06400079905985867
+CICIDS_native_robustness,random_stratified,Random Forest,Flow Bytes/s,0.00946082523534634
+CICIDS_native_robustness,random_stratified,Random Forest,Flow Packets/s,0.00657225491417773
+CICIDS_native_robustness,random_stratified,Random Forest,Flow IAT Mean,0.0077959104369780974
+CICIDS_native_robustness,random_stratified,Random Forest,Flow IAT Std,0.009639045835532658
+CICIDS_native_robustness,random_stratified,Random Forest,Flow IAT Max,0.015482787021118612
+CICIDS_native_robustness,random_stratified,Random Forest,Flow IAT Min,0.006739488884887611
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd IAT Total,0.007473501544991445
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd IAT Mean,0.007731734034971654
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd IAT Std,0.006474945095876549
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd IAT Max,0.009509497264423086
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd IAT Min,0.008368676052419975
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd IAT Total,0.0025447557171320028
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd IAT Mean,0.001727241115108632
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd IAT Std,0.0013365312724949994
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd IAT Max,0.0028982017127467752
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd IAT Min,0.0013381795179380216
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd PSH Flags,0.00022174999054405014
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd URG Flags,6.49069947311844e-06
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd Header Length,0.01941037825171787
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd Header Length,0.01656820527989088
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd Packets/s,0.005191425296537935
+CICIDS_native_robustness,random_stratified,Random Forest,Bwd Packets/s,0.008857956154376463
+CICIDS_native_robustness,random_stratified,Random Forest,Min Packet Length,0.0034737444943043223
+CICIDS_native_robustness,random_stratified,Random Forest,Max Packet Length,0.04112955120706587
+CICIDS_native_robustness,random_stratified,Random Forest,Packet Length Mean,0.042691640308185244
+CICIDS_native_robustness,random_stratified,Random Forest,Packet Length Std,0.03349484956881054
+CICIDS_native_robustness,random_stratified,Random Forest,Packet Length Variance,0.05340581305240519
+CICIDS_native_robustness,random_stratified,Random Forest,FIN Flag Count,0.0015100872825583006
+CICIDS_native_robustness,random_stratified,Random Forest,SYN Flag Count,0.0003398462189918379
+CICIDS_native_robustness,random_stratified,Random Forest,RST Flag Count,0.0
+CICIDS_native_robustness,random_stratified,Random Forest,PSH Flag Count,0.0045457226625877705
+CICIDS_native_robustness,random_stratified,Random Forest,ACK Flag Count,0.006778609262975502
+CICIDS_native_robustness,random_stratified,Random Forest,URG Flag Count,0.005261021223228142
+CICIDS_native_robustness,random_stratified,Random Forest,CWE Flag Count,1.286597951876289e-05
+CICIDS_native_robustness,random_stratified,Random Forest,ECE Flag Count,1.0524842210113412e-07
+CICIDS_native_robustness,random_stratified,Random Forest,Down/Up Ratio,0.0021593007639809595
+CICIDS_native_robustness,random_stratified,Random Forest,Average Packet Size,0.05374416460164415
+CICIDS_native_robustness,random_stratified,Random Forest,Avg Fwd Segment Size,0.015489650826263412
+CICIDS_native_robustness,random_stratified,Random Forest,Avg Bwd Segment Size,0.04563426491777656
+CICIDS_native_robustness,random_stratified,Random Forest,Fwd Header Length.1,0.021680854035050868
+CICIDS_native_robustness,random_stratified,Random Forest,Subflow Fwd Packets,0.010143350992528324
+CICIDS_native_robustness,random_stratified,Random Forest,Subflow Fwd Bytes,0.0216696196062508
+CICIDS_native_robustness,random_stratified,Random Forest,Subflow Bwd Packets,0.00986049847766365
+CICIDS_native_robustness,random_stratified,Random Forest,Subflow Bwd Bytes,0.02248085529525209
+CICIDS_native_robustness,random_stratified,Random Forest,Init_Win_bytes_forward,0.03186387391503738
+CICIDS_native_robustness,random_stratified,Random Forest,Init_Win_bytes_backward,0.01786550367837091
+CICIDS_native_robustness,random_stratified,Random Forest,act_data_pkt_fwd,0.013513953977077222
+CICIDS_native_robustness,random_stratified,Random Forest,min_seg_size_forward,0.010700091941479117
+CICIDS_native_robustness,random_stratified,Random Forest,Active Mean,0.0014020169845616924
+CICIDS_native_robustness,random_stratified,Random Forest,Active Std,0.0006655305925136398
+CICIDS_native_robustness,random_stratified,Random Forest,Active Max,0.0017564834851145393
+CICIDS_native_robustness,random_stratified,Random Forest,Active Min,0.0011843380636281536
+CICIDS_native_robustness,random_stratified,Random Forest,Idle Mean,0.0016150446084028324
+CICIDS_native_robustness,random_stratified,Random Forest,Idle Std,0.00011994726194717789
+CICIDS_native_robustness,random_stratified,Random Forest,Idle Max,0.0030601750719287373
+CICIDS_native_robustness,random_stratified,Random Forest,Idle Min,0.006277846758779756
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Destination Port,0.10731235604115467
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Flow Duration,0.0005973665796150033
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Total Fwd Packets,0.0
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Total Backward Packets,1.0366849456457667e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Total Length of Fwd Packets,0.0002182007323598358
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Total Length of Bwd Packets,0.0014719939594560068
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd Packet Length Max,6.644590996813859e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd Packet Length Min,0.0006977650629630804
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd Packet Length Mean,0.00016852510107099602
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd Packet Length Std,0.008776732751462875
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd Packet Length Max,0.001069158576986193
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd Packet Length Min,0.0
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd Packet Length Mean,0.0008785911509906582
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd Packet Length Std,0.3720913669202258
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Flow Bytes/s,0.00043250426735729966
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Flow Packets/s,0.00026862275932957604
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Flow IAT Mean,0.00016556777161598065
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Flow IAT Std,0.0007805078044605672
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Flow IAT Max,0.00019893995390528476
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Flow IAT Min,0.006369290463220545
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd IAT Total,9.738322284109935e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd IAT Mean,0.0006784432977202655
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd IAT Std,0.00014177035492258822
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd IAT Max,0.003058713648303981
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd IAT Min,0.0056661578310842585
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd IAT Total,0.0
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd IAT Mean,2.79174436015709e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd IAT Std,0.002047940790671729
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd IAT Max,0.00016895368587965278
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd IAT Min,0.002034820317735844
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd PSH Flags,0.00015485671265341407
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd URG Flags,0.0
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd Header Length,0.0005014781361725116
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd Header Length,0.13315442239015818
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd Packets/s,0.0003469990927651439
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Bwd Packets/s,0.0012117420567103808
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Min Packet Length,0.0003087364093603451
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Max Packet Length,0.08778383820044794
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Packet Length Mean,0.0012468964609015428
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Packet Length Std,1.0451169317474533e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Packet Length Variance,8.973464014790648e-06
+CICIDS_native_robustness,duplicate_aware,Decision Tree,FIN Flag Count,4.773222367154973e-07
+CICIDS_native_robustness,duplicate_aware,Decision Tree,SYN Flag Count,0.0
+CICIDS_native_robustness,duplicate_aware,Decision Tree,RST Flag Count,0.0
+CICIDS_native_robustness,duplicate_aware,Decision Tree,PSH Flag Count,0.00036496164437649164
+CICIDS_native_robustness,duplicate_aware,Decision Tree,ACK Flag Count,1.753564426223672e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,URG Flag Count,0.00038473132567383
+CICIDS_native_robustness,duplicate_aware,Decision Tree,CWE Flag Count,0.0
+CICIDS_native_robustness,duplicate_aware,Decision Tree,ECE Flag Count,0.0
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Down/Up Ratio,7.773263202812399e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Average Packet Size,0.1928835802862905
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Avg Fwd Segment Size,1.9134808548253483e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Avg Bwd Segment Size,0.000300040613912623
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Fwd Header Length.1,0.00048781079786478225
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Subflow Fwd Packets,0.0014440906403892948
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Subflow Fwd Bytes,0.000503111989219549
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Subflow Bwd Packets,3.0823880626001475e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Subflow Bwd Bytes,9.305814533856967e-06
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Init_Win_bytes_forward,0.02797328126844301
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Init_Win_bytes_backward,0.014034680365804528
+CICIDS_native_robustness,duplicate_aware,Decision Tree,act_data_pkt_fwd,0.00020335301844403883
+CICIDS_native_robustness,duplicate_aware,Decision Tree,min_seg_size_forward,0.018763775842116987
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Active Mean,0.0
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Active Std,0.0021348054675629172
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Active Max,0.0
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Active Min,4.9257781643598865e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Idle Mean,5.310577813311644e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Idle Std,3.098877464149826e-05
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Idle Max,5.425183502926919e-07
+CICIDS_native_robustness,duplicate_aware,Decision Tree,Idle Min,8.074444036182673e-06
+CICIDS_native_robustness,duplicate_aware,Random Forest,Destination Port,0.05720982083504929
+CICIDS_native_robustness,duplicate_aware,Random Forest,Flow Duration,0.008970660776777696
+CICIDS_native_robustness,duplicate_aware,Random Forest,Total Fwd Packets,0.011971543047443365
+CICIDS_native_robustness,duplicate_aware,Random Forest,Total Backward Packets,0.011649452907181309
+CICIDS_native_robustness,duplicate_aware,Random Forest,Total Length of Fwd Packets,0.025259568805266523
+CICIDS_native_robustness,duplicate_aware,Random Forest,Total Length of Bwd Packets,0.04105102837397436
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd Packet Length Max,0.01469590906007994
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd Packet Length Min,0.009139023198004503
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd Packet Length Mean,0.020846404385766154
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd Packet Length Std,0.0027101253165934896
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd Packet Length Max,0.02844244061914786
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd Packet Length Min,0.008684176115077416
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd Packet Length Mean,0.06034700974205712
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd Packet Length Std,0.061765245226000805
+CICIDS_native_robustness,duplicate_aware,Random Forest,Flow Bytes/s,0.007569273023885075
+CICIDS_native_robustness,duplicate_aware,Random Forest,Flow Packets/s,0.005934981726881044
+CICIDS_native_robustness,duplicate_aware,Random Forest,Flow IAT Mean,0.007721881649015168
+CICIDS_native_robustness,duplicate_aware,Random Forest,Flow IAT Std,0.008942176881917752
+CICIDS_native_robustness,duplicate_aware,Random Forest,Flow IAT Max,0.012907238576750763
+CICIDS_native_robustness,duplicate_aware,Random Forest,Flow IAT Min,0.0065206533438088325
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd IAT Total,0.010618254232919027
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd IAT Mean,0.006789174096338708
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd IAT Std,0.00681242480405889
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd IAT Max,0.007866189149070972
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd IAT Min,0.009686516382487744
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd IAT Total,0.003894339248187394
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd IAT Mean,0.0025870186733800743
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd IAT Std,0.001034278729601965
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd IAT Max,0.003314378598569919
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd IAT Min,0.0008818663321179236
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd PSH Flags,0.00030753837782164
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd URG Flags,8.295948248246232e-06
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd Header Length,0.017355309688092232
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd Header Length,0.01266095025255176
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd Packets/s,0.005667170784234902
+CICIDS_native_robustness,duplicate_aware,Random Forest,Bwd Packets/s,0.010749394944438478
+CICIDS_native_robustness,duplicate_aware,Random Forest,Min Packet Length,0.004930131690499647
+CICIDS_native_robustness,duplicate_aware,Random Forest,Max Packet Length,0.03955981032315764
+CICIDS_native_robustness,duplicate_aware,Random Forest,Packet Length Mean,0.038713423390226646
+CICIDS_native_robustness,duplicate_aware,Random Forest,Packet Length Std,0.02971358384162178
+CICIDS_native_robustness,duplicate_aware,Random Forest,Packet Length Variance,0.05773730230406816
+CICIDS_native_robustness,duplicate_aware,Random Forest,FIN Flag Count,0.0009599401417469251
+CICIDS_native_robustness,duplicate_aware,Random Forest,SYN Flag Count,0.0006343550404901812
+CICIDS_native_robustness,duplicate_aware,Random Forest,RST Flag Count,0.0
+CICIDS_native_robustness,duplicate_aware,Random Forest,PSH Flag Count,0.004337595125218549
+CICIDS_native_robustness,duplicate_aware,Random Forest,ACK Flag Count,0.006742693295898051
+CICIDS_native_robustness,duplicate_aware,Random Forest,URG Flag Count,0.004500295319622555
+CICIDS_native_robustness,duplicate_aware,Random Forest,CWE Flag Count,8.678991363308094e-06
+CICIDS_native_robustness,duplicate_aware,Random Forest,ECE Flag Count,1.0416713042996886e-07
+CICIDS_native_robustness,duplicate_aware,Random Forest,Down/Up Ratio,0.0018277005570699687
+CICIDS_native_robustness,duplicate_aware,Random Forest,Average Packet Size,0.056360756099777504
+CICIDS_native_robustness,duplicate_aware,Random Forest,Avg Fwd Segment Size,0.017686412189227875
+CICIDS_native_robustness,duplicate_aware,Random Forest,Avg Bwd Segment Size,0.047003585852809254
+CICIDS_native_robustness,duplicate_aware,Random Forest,Fwd Header Length.1,0.018355913496034132
+CICIDS_native_robustness,duplicate_aware,Random Forest,Subflow Fwd Packets,0.006690393425474405
+CICIDS_native_robustness,duplicate_aware,Random Forest,Subflow Fwd Bytes,0.024312178649868205
+CICIDS_native_robustness,duplicate_aware,Random Forest,Subflow Bwd Packets,0.014238781842262264
+CICIDS_native_robustness,duplicate_aware,Random Forest,Subflow Bwd Bytes,0.023221757334328817
+CICIDS_native_robustness,duplicate_aware,Random Forest,Init_Win_bytes_forward,0.03258217218646904
+CICIDS_native_robustness,duplicate_aware,Random Forest,Init_Win_bytes_backward,0.0201856226385897
+CICIDS_native_robustness,duplicate_aware,Random Forest,act_data_pkt_fwd,0.00992616259087631
+CICIDS_native_robustness,duplicate_aware,Random Forest,min_seg_size_forward,0.010679843482350173
+CICIDS_native_robustness,duplicate_aware,Random Forest,Active Mean,0.0006916075676586707
+CICIDS_native_robustness,duplicate_aware,Random Forest,Active Std,0.000534583306353858
+CICIDS_native_robustness,duplicate_aware,Random Forest,Active Max,0.001454609672957915
+CICIDS_native_robustness,duplicate_aware,Random Forest,Active Min,0.0010049648861854305
+CICIDS_native_robustness,duplicate_aware,Random Forest,Idle Mean,0.0021619791581263537
+CICIDS_native_robustness,duplicate_aware,Random Forest,Idle Std,9.748284699533545e-05
+CICIDS_native_robustness,duplicate_aware,Random Forest,Idle Max,0.0031038613830130794
+CICIDS_native_robustness,duplicate_aware,Random Forest,Idle Min,0.007470003349729509
+CICIDS_native_robustness,capture_aware,Decision Tree,Destination Port,0.1844550367176871
+CICIDS_native_robustness,capture_aware,Decision Tree,Flow Duration,0.00018940047688323103
+CICIDS_native_robustness,capture_aware,Decision Tree,Total Fwd Packets,1.2415923254345971e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Total Backward Packets,0.00010805050484000384
+CICIDS_native_robustness,capture_aware,Decision Tree,Total Length of Fwd Packets,0.0005502666226906298
+CICIDS_native_robustness,capture_aware,Decision Tree,Total Length of Bwd Packets,0.0
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd Packet Length Max,0.003101268420127071
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd Packet Length Min,0.0012389512396893737
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd Packet Length Mean,5.4483850439852526e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd Packet Length Std,2.3379374143728647e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd Packet Length Max,1.1538029690907365e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd Packet Length Min,6.485576001732738e-06
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd Packet Length Mean,0.0010742643463390576
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd Packet Length Std,0.5445592694459612
+CICIDS_native_robustness,capture_aware,Decision Tree,Flow Bytes/s,0.005287905978514958
+CICIDS_native_robustness,capture_aware,Decision Tree,Flow Packets/s,0.00015149304295117644
+CICIDS_native_robustness,capture_aware,Decision Tree,Flow IAT Mean,0.05202784763150286
+CICIDS_native_robustness,capture_aware,Decision Tree,Flow IAT Std,0.0036920121197975973
+CICIDS_native_robustness,capture_aware,Decision Tree,Flow IAT Max,8.590361126637796e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Flow IAT Min,0.0267453159318265
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd IAT Total,0.00024120896175680682
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd IAT Mean,0.00027712664409773634
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd IAT Std,1.112595720194639e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd IAT Max,0.00046266804626663176
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd IAT Min,0.009023368141513608
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd IAT Total,0.0
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd IAT Mean,0.00316034911378038
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd IAT Std,0.003618998571109019
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd IAT Max,4.684320215928223e-06
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd IAT Min,0.00024629555002339537
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd PSH Flags,0.0
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd URG Flags,0.0
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd Header Length,0.026582006957300133
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd Header Length,0.000215321546300078
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd Packets/s,0.00019992079628252112
+CICIDS_native_robustness,capture_aware,Decision Tree,Bwd Packets/s,0.00257453864400402
+CICIDS_native_robustness,capture_aware,Decision Tree,Min Packet Length,2.3200940172779488e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Max Packet Length,1.0816902835225655e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Packet Length Mean,0.06816826729646165
+CICIDS_native_robustness,capture_aware,Decision Tree,Packet Length Std,5.269376952588496e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Packet Length Variance,0.00017529172662709714
+CICIDS_native_robustness,capture_aware,Decision Tree,FIN Flag Count,0.010937198362023724
+CICIDS_native_robustness,capture_aware,Decision Tree,SYN Flag Count,0.0
+CICIDS_native_robustness,capture_aware,Decision Tree,RST Flag Count,0.0
+CICIDS_native_robustness,capture_aware,Decision Tree,PSH Flag Count,0.00038737680553559427
+CICIDS_native_robustness,capture_aware,Decision Tree,ACK Flag Count,0.00014981603599008325
+CICIDS_native_robustness,capture_aware,Decision Tree,URG Flag Count,0.0013137653262320116
+CICIDS_native_robustness,capture_aware,Decision Tree,CWE Flag Count,0.0
+CICIDS_native_robustness,capture_aware,Decision Tree,ECE Flag Count,0.0
+CICIDS_native_robustness,capture_aware,Decision Tree,Down/Up Ratio,0.0003803423016189355
+CICIDS_native_robustness,capture_aware,Decision Tree,Average Packet Size,0.00030200266051945185
+CICIDS_native_robustness,capture_aware,Decision Tree,Avg Fwd Segment Size,0.00019112301055072988
+CICIDS_native_robustness,capture_aware,Decision Tree,Avg Bwd Segment Size,0.0003288167456680226
+CICIDS_native_robustness,capture_aware,Decision Tree,Fwd Header Length.1,0.0008207921722799804
+CICIDS_native_robustness,capture_aware,Decision Tree,Subflow Fwd Packets,1.1357747976986937e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Subflow Fwd Bytes,0.0003036398389910054
+CICIDS_native_robustness,capture_aware,Decision Tree,Subflow Bwd Packets,3.673346234122568e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Subflow Bwd Bytes,3.893988681324306e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Init_Win_bytes_forward,0.013811237266783285
+CICIDS_native_robustness,capture_aware,Decision Tree,Init_Win_bytes_backward,0.01531643176672136
+CICIDS_native_robustness,capture_aware,Decision Tree,act_data_pkt_fwd,0.0007363360766379064
+CICIDS_native_robustness,capture_aware,Decision Tree,min_seg_size_forward,0.011418362519539402
+CICIDS_native_robustness,capture_aware,Decision Tree,Active Mean,1.1958680170651975e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Active Std,0.004968295258964523
+CICIDS_native_robustness,capture_aware,Decision Tree,Active Max,3.4104851763920874e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Active Min,6.323069062389292e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Idle Mean,0.0
+CICIDS_native_robustness,capture_aware,Decision Tree,Idle Std,1.3347885563667547e-05
+CICIDS_native_robustness,capture_aware,Decision Tree,Idle Max,1.6179176077293204e-06
+CICIDS_native_robustness,capture_aware,Decision Tree,Idle Min,0.0
+CICIDS_native_robustness,capture_aware,Random Forest,Destination Port,0.07608023183404224
+CICIDS_native_robustness,capture_aware,Random Forest,Flow Duration,0.007828501304657164
+CICIDS_native_robustness,capture_aware,Random Forest,Total Fwd Packets,0.0040670723489578085
+CICIDS_native_robustness,capture_aware,Random Forest,Total Backward Packets,0.01789664967816228
+CICIDS_native_robustness,capture_aware,Random Forest,Total Length of Fwd Packets,0.006917405373485436
+CICIDS_native_robustness,capture_aware,Random Forest,Total Length of Bwd Packets,0.018175141141346045
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd Packet Length Max,0.007589776781685421
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd Packet Length Min,0.008392029758309983
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd Packet Length Mean,0.013431978226194557
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd Packet Length Std,0.003416074939708668
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd Packet Length Max,0.0424055329062438
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd Packet Length Min,0.0012898308376178892
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd Packet Length Mean,0.0685474763726583
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd Packet Length Std,0.09091627174979888
+CICIDS_native_robustness,capture_aware,Random Forest,Flow Bytes/s,0.005675468303993663
+CICIDS_native_robustness,capture_aware,Random Forest,Flow Packets/s,0.014363737375606775
+CICIDS_native_robustness,capture_aware,Random Forest,Flow IAT Mean,0.014678903947654734
+CICIDS_native_robustness,capture_aware,Random Forest,Flow IAT Std,0.019125903898958137
+CICIDS_native_robustness,capture_aware,Random Forest,Flow IAT Max,0.024584081160989497
+CICIDS_native_robustness,capture_aware,Random Forest,Flow IAT Min,0.006335144086024435
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd IAT Total,0.011001420536744853
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd IAT Mean,0.007884032709740734
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd IAT Std,0.011855666168110693
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd IAT Max,0.023063609821272545
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd IAT Min,0.010529809606112281
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd IAT Total,0.0025846396233113783
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd IAT Mean,0.0023830214082794887
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd IAT Std,0.0024703382433592983
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd IAT Max,0.0019518682000879246
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd IAT Min,0.0019406291184064504
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd PSH Flags,0.000496814210300073
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd URG Flags,2.4274357040303788e-05
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd Header Length,0.019459408384258425
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd Header Length,0.0072460613012661395
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd Packets/s,0.012449008242721282
+CICIDS_native_robustness,capture_aware,Random Forest,Bwd Packets/s,0.015492535412072083
+CICIDS_native_robustness,capture_aware,Random Forest,Min Packet Length,0.0032909617644119827
+CICIDS_native_robustness,capture_aware,Random Forest,Max Packet Length,0.042943584424062764
+CICIDS_native_robustness,capture_aware,Random Forest,Packet Length Mean,0.028702472276930336
+CICIDS_native_robustness,capture_aware,Random Forest,Packet Length Std,0.027737938115941316
+CICIDS_native_robustness,capture_aware,Random Forest,Packet Length Variance,0.05971555396989972
+CICIDS_native_robustness,capture_aware,Random Forest,FIN Flag Count,0.004987250411835631
+CICIDS_native_robustness,capture_aware,Random Forest,SYN Flag Count,0.0007795079307794643
+CICIDS_native_robustness,capture_aware,Random Forest,RST Flag Count,5.116113836850633e-07
+CICIDS_native_robustness,capture_aware,Random Forest,PSH Flag Count,0.0006491415564972837
+CICIDS_native_robustness,capture_aware,Random Forest,ACK Flag Count,0.0018099040651513762
+CICIDS_native_robustness,capture_aware,Random Forest,URG Flag Count,0.0012391934658137905
+CICIDS_native_robustness,capture_aware,Random Forest,CWE Flag Count,3.145695530376728e-05
+CICIDS_native_robustness,capture_aware,Random Forest,ECE Flag Count,7.65542295242564e-07
+CICIDS_native_robustness,capture_aware,Random Forest,Down/Up Ratio,0.0009971261910248542
+CICIDS_native_robustness,capture_aware,Random Forest,Average Packet Size,0.025638452424902314
+CICIDS_native_robustness,capture_aware,Random Forest,Avg Fwd Segment Size,0.009648775107707742
+CICIDS_native_robustness,capture_aware,Random Forest,Avg Bwd Segment Size,0.03759055864562664
+CICIDS_native_robustness,capture_aware,Random Forest,Fwd Header Length.1,0.02011316819665551
+CICIDS_native_robustness,capture_aware,Random Forest,Subflow Fwd Packets,0.005916927530969814
+CICIDS_native_robustness,capture_aware,Random Forest,Subflow Fwd Bytes,0.006574259348704631
+CICIDS_native_robustness,capture_aware,Random Forest,Subflow Bwd Packets,0.012334745111766058
+CICIDS_native_robustness,capture_aware,Random Forest,Subflow Bwd Bytes,0.00895499445024363
+CICIDS_native_robustness,capture_aware,Random Forest,Init_Win_bytes_forward,0.04078418952332048
+CICIDS_native_robustness,capture_aware,Random Forest,Init_Win_bytes_backward,0.017074747532846317
+CICIDS_native_robustness,capture_aware,Random Forest,act_data_pkt_fwd,0.0022214261579200007
+CICIDS_native_robustness,capture_aware,Random Forest,min_seg_size_forward,0.010318137967374618
+CICIDS_native_robustness,capture_aware,Random Forest,Active Mean,0.0009885878672291008
+CICIDS_native_robustness,capture_aware,Random Forest,Active Std,0.0009743795591492636
+CICIDS_native_robustness,capture_aware,Random Forest,Active Max,0.000606890102537422
+CICIDS_native_robustness,capture_aware,Random Forest,Active Min,0.00043504218144070855
+CICIDS_native_robustness,capture_aware,Random Forest,Idle Mean,0.006781906999180761
+CICIDS_native_robustness,capture_aware,Random Forest,Idle Std,0.0004623256112348902
+CICIDS_native_robustness,capture_aware,Random Forest,Idle Max,0.01874377794588212
+CICIDS_native_robustness,capture_aware,Random Forest,Idle Min,0.018400990084796932
+UNSW_to_CICIDS,common_semantic,Decision Tree,flow_duration_sec,0.027845271334311698
+UNSW_to_CICIDS,common_semantic,Decision Tree,fwd_packets,0.015002406909006297
+UNSW_to_CICIDS,common_semantic,Decision Tree,bwd_packets,0.013082452440125002
+UNSW_to_CICIDS,common_semantic,Decision Tree,fwd_bytes,0.11093513293450247
+UNSW_to_CICIDS,common_semantic,Decision Tree,bwd_bytes,0.048690392866570106
+UNSW_to_CICIDS,common_semantic,Decision Tree,total_packets,0.019888175765085333
+UNSW_to_CICIDS,common_semantic,Decision Tree,total_bytes,0.033967662025280475
+UNSW_to_CICIDS,common_semantic,Decision Tree,packet_rate,0.028399082081891996
+UNSW_to_CICIDS,common_semantic,Decision Tree,fwd_packet_rate,0.0580228343975697
+UNSW_to_CICIDS,common_semantic,Decision Tree,bwd_packet_rate,0.5046590629975212
+UNSW_to_CICIDS,common_semantic,Decision Tree,avg_packet_size,0.13950752624813575
+UNSW_to_CICIDS,common_semantic,Random Forest,flow_duration_sec,0.07212751863911229
+UNSW_to_CICIDS,common_semantic,Random Forest,fwd_packets,0.0278806531077069
+UNSW_to_CICIDS,common_semantic,Random Forest,bwd_packets,0.04293541630584588
+UNSW_to_CICIDS,common_semantic,Random Forest,fwd_bytes,0.07067349958777677
+UNSW_to_CICIDS,common_semantic,Random Forest,bwd_bytes,0.06761575701665568
+UNSW_to_CICIDS,common_semantic,Random Forest,total_packets,0.02854307685297882
+UNSW_to_CICIDS,common_semantic,Random Forest,total_bytes,0.07076316839483499
+UNSW_to_CICIDS,common_semantic,Random Forest,packet_rate,0.1688666960242653
+UNSW_to_CICIDS,common_semantic,Random Forest,fwd_packet_rate,0.15750703416264947
+UNSW_to_CICIDS,common_semantic,Random Forest,bwd_packet_rate,0.21502720785164178
+UNSW_to_CICIDS,common_semantic,Random Forest,avg_packet_size,0.07805997205653209
+CICIDS_to_UNSW,common_semantic,Decision Tree,flow_duration_sec,0.038164396843391936
+CICIDS_to_UNSW,common_semantic,Decision Tree,fwd_packets,0.036763981024872584
+CICIDS_to_UNSW,common_semantic,Decision Tree,bwd_packets,0.08455714603444064
+CICIDS_to_UNSW,common_semantic,Decision Tree,fwd_bytes,0.12323592188456521
+CICIDS_to_UNSW,common_semantic,Decision Tree,bwd_bytes,0.030218617548824583
+CICIDS_to_UNSW,common_semantic,Decision Tree,total_packets,0.01089864817856627
+CICIDS_to_UNSW,common_semantic,Decision Tree,total_bytes,0.10106505130490899
+CICIDS_to_UNSW,common_semantic,Decision Tree,packet_rate,0.0064034298803318495
+CICIDS_to_UNSW,common_semantic,Decision Tree,fwd_packet_rate,0.015604777593732857
+CICIDS_to_UNSW,common_semantic,Decision Tree,bwd_packet_rate,0.05391326611543719
+CICIDS_to_UNSW,common_semantic,Decision Tree,avg_packet_size,0.49917476359092794
+CICIDS_to_UNSW,common_semantic,Random Forest,flow_duration_sec,0.039354962479143364
+CICIDS_to_UNSW,common_semantic,Random Forest,fwd_packets,0.04323533682839733
+CICIDS_to_UNSW,common_semantic,Random Forest,bwd_packets,0.05870492365169296
+CICIDS_to_UNSW,common_semantic,Random Forest,fwd_bytes,0.13937196213883013
+CICIDS_to_UNSW,common_semantic,Random Forest,bwd_bytes,0.16391501021931199
+CICIDS_to_UNSW,common_semantic,Random Forest,total_packets,0.030685000959388545
+CICIDS_to_UNSW,common_semantic,Random Forest,total_bytes,0.15852128849112904
+CICIDS_to_UNSW,common_semantic,Random Forest,packet_rate,0.06057864883748574
+CICIDS_to_UNSW,common_semantic,Random Forest,fwd_packet_rate,0.04610450636716898
+CICIDS_to_UNSW,common_semantic,Random Forest,bwd_packet_rate,0.03551093187910623
+CICIDS_to_UNSW,common_semantic,Random Forest,avg_packet_size,0.22401742814834563

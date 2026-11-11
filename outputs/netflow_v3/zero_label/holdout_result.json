@@ -1,0 +1,17 @@
+{
+ "kind": "three sources",
+ "source": "UNSW+ToN+CIC2018",
+ "target": "BoT",
+ "view": "per-computer",
+ "align": "none",
+ "self_training": true,
+ "roc_auc": 0.9738350169358609,
+ "pr_auc": 0.9994094053757184,
+ "f1": 0.9635358320623737,
+ "recall": 0.9306270721713097,
+ "fpr": 0.04730642981270516,
+ "flag_all_f1": 0.9888730139973574,
+ "best_possible_f1": 0.9892313325149146,
+ "attack_rate": 0.9779909226898755,
+ "n": 235312
+}

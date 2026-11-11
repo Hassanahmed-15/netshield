@@ -1,0 +1,3 @@
+source_file,rows,features_before_metadata,memory_MB
+UNSW_NB15_training-set.csv,175341,45,102.74680137634277
+UNSW_NB15_testing-set.csv,82332,45,48.133185386657715

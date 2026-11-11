@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1,macro_f1,pr_auc,roc_auc,fpr,tn,fp,fn,tp,predicted_attack_rate,threshold,method,pseudo_rows,train_seconds,phase,status
+0.19692666666666667,0.19692666666666667,1.0,0.32905385459426645,0.16452692729713322,0.36249810324548937,0.5656403554659069,1.0,0,240922,0,59078,1.0,0.3,CORAL + balanced,0,44.98180670000147,18,benchmark

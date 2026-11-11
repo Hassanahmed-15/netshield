@@ -1,0 +1,18 @@
+{
+  "research_question": "Does domain adaptation improve cross-dataset NIDS transfer, and what mechanisms/errors explain the change?",
+  "direction_analyzed": "UNSW_NB15_to_CICIDS2017",
+  "baseline_rf_f1": 0.25735446979989796,
+  "coral_rf_f1": 0.04192863827487577,
+  "baseline_rf_pr_auc": 0.1773329242180606,
+  "coral_rf_pr_auc": 0.27805752694491986,
+  "baseline_rf_roc_auc": 0.44477363767377165,
+  "coral_rf_roc_auc": 0.615565619405298,
+  "baseline_rf_fpr": 0.6673727508688575,
+  "coral_rf_fpr": 0.08143944393119529,
+  "covariance_distance_before": 2113.0192579010813,
+  "covariance_distance_after": 0.0003437841485920829,
+  "covariance_distance_relative_reduction": 0.9999998373019331,
+  "mean_distance_before": 8.220831871032715,
+  "mean_distance_after": 0.0061787888407707214,
+  "warning": "Attack-class results for very small CICIDS classes must be interpreted cautiously. Feature importance and distribution diagnostics are supporting evidence, not causal proof. CORAL results should only be interpreted when the covariance sanity check passes."
+}

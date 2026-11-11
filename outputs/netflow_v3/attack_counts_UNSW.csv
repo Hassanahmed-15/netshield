@@ -1,0 +1,11 @@
+dataset,Attack,Label,count_all
+UNSW,Fuzzers,1,33816
+UNSW,Benign,0,2237731
+UNSW,Generic,1,19651
+UNSW,Exploits,1,42748
+UNSW,Reconnaissance,1,17074
+UNSW,Shellcode,1,2381
+UNSW,Backdoor,1,4659
+UNSW,DoS,1,5980
+UNSW,Worms,1,158
+UNSW,Analysis,1,1226

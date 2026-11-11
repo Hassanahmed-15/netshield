@@ -1,0 +1,9 @@
+source_file,rows,features_before_metadata,memory_MB
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,225745,79,166.8188076019287
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,286467,79,213.39631271362305
+Friday-WorkingHours-Morning.pcap_ISCX.csv,191033,79,140.09343242645264
+Monday-WorkingHours.pcap_ISCX.csv,529918,79,384.5860767364502
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,288602,79,216.60816383361816
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,170366,79,127.1673355102539
+Tuesday-WorkingHours.pcap_ISCX.csv,445909,79,324.1080904006958
+Wednesday-workingHours.pcap_ISCX.csv,692703,79,505.30913066864014

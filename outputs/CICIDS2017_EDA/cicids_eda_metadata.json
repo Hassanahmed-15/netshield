@@ -1,0 +1,12 @@
+{
+    "project":"NetShield",
+    "dataset":"CICIDS2017",
+    "rows":2830743,
+    "columns_in_memory":82,
+    "source_files":8,
+    "numeric_features":78,
+    "unique_labels":15,
+    "exact_duplicates":256479,
+    "nan_cells":1358,
+    "eda_only_note":"No scaling, encoding, imputation, SMOTE, feature selection, or raw-data deletion performed."
+}

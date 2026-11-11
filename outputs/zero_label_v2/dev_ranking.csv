@@ -1,0 +1,81 @@
+view,consistent_features_only,self_training,variant,balanced_accuracy,roc_auc
+three windows + relative,True,True,model + computer smoothing,0.894439107829314,0.9661443886319091
+three windows + relative,True,True,model,0.882367825068975,0.9655310219642836
+three windows,True,False,model + computer smoothing,0.8771865133002887,0.963944569088331
+three windows,True,True,model + detector + smoothing,0.8711437512814373,0.8845754073766576
+three windows + relative,True,True,model + detector + smoothing,0.8614518297810217,0.8896153223864497
+three windows,True,True,model + computer smoothing,0.8529190336713142,0.9676694243114985
+relative only,True,False,model + computer smoothing,0.8516869071043534,0.9407817796704113
+relative only,True,True,model + computer smoothing,0.8440915066240181,0.936071671539467
+relative only,False,False,model + computer smoothing,0.8438836507842924,0.9475844238598639
+three windows,True,True,model,0.8411930808326908,0.9679939018931585
+relative only,True,False,model,0.8366746835466461,0.9185005804632447
+relative only,False,True,model + detector + smoothing,0.8350869684254041,0.8757672243285382
+three windows + relative,True,False,model + computer smoothing,0.8318319839462904,0.9287738764987007
+relative only,False,False,model + detector + smoothing,0.8317428748679503,0.802329704507372
+relative only,False,False,model + own-network detector,0.831250674162472,0.8046560088219626
+relative only,False,True,model + computer smoothing,0.8306296370339199,0.9337450236279229
+relative only,True,True,model,0.8301515341793735,0.928505459777217
+relative only,True,False,model + detector + smoothing,0.8284485124140253,0.8560898591832784
+relative only,False,True,model + own-network detector,0.8257271709344077,0.879391832273495
+three windows,True,True,model + own-network detector,0.8229711922593684,0.8863520042053884
+three windows + relative,True,True,model + own-network detector,0.8223426221299796,0.8926290817986494
+relative only,False,True,model,0.8169215300378108,0.9412837064534173
+relative only,False,False,model,0.8093771185373426,0.9321615054432811
+three windows + relative,True,False,model,0.8090414054629723,0.8829675037107487
+three windows,True,False,model,0.8081249818328755,0.946413883097826
+version 1 (1 minute),True,True,model + computer smoothing,0.8046692981730255,0.9194479783161932
+relative only,True,False,model + own-network detector,0.8023867169077762,0.8516533948299332
+three windows,True,False,model + detector + smoothing,0.8018777290709939,0.8333765829096611
+three windows + relative,True,False,model + detector + smoothing,0.7950582651595404,0.8507239683063816
+version 1 (1 minute),True,True,model + detector + smoothing,0.7909300379888059,0.7780039236966485
+three windows + relative,False,True,model + detector + smoothing,0.7908508248537311,0.8374100969370903
+version 1 (1 minute),True,False,model + computer smoothing,0.7895077949721402,0.8659652700844177
+relative only,True,True,model + detector + smoothing,0.7886394393647267,0.8301411248431838
+three windows + relative,False,False,model + detector + smoothing,0.7855307988574506,0.8342937615986447
+version 1 (1 minute),False,False,model + computer smoothing,0.7842318955236551,0.7963963928372163
+version 1 (1 minute),True,True,model,0.7821537794775093,0.901136097375488
+three windows + relative,False,True,model,0.7801976888140727,0.7893966276781628
+three windows + relative,False,True,model + computer smoothing,0.778477200270415,0.7941996858603473
+three windows + relative,True,False,model + own-network detector,0.7758644693174187,0.8594556107426334
+three windows + relative,False,True,model + own-network detector,0.7750149035069969,0.8232790220126092
+version 1 (1 minute),False,True,model + computer smoothing,0.7729531324719252,0.7862572706441492
+version 1 (1 minute),False,False,model,0.7704534379718551,0.7670073643336746
+version 1 (1 minute),True,False,model,0.7688036430171044,0.8059749435829379
+version 1 (1 minute),False,True,model,0.7643136579562246,0.8147226139828632
+version 1 (1 minute),True,True,model + own-network detector,0.7591378165205758,0.7743014022123585
+three windows + relative,False,False,model,0.753483928959888,0.7978261404050562
+three windows,True,False,model + own-network detector,0.7512661046211919,0.8372613917249886
+three windows + relative,False,False,model + computer smoothing,0.7489877303157128,0.765808465694048
+relative only,True,True,model + own-network detector,0.7438778214144401,0.8289758025444927
+version 1 (1 minute),False,True,model + detector + smoothing,0.7425498464078175,0.7821362254951708
+three windows,False,True,model + own-network detector,0.7308794523926858,0.7193262963861438
+version 1 (1 minute),False,False,model + detector + smoothing,0.7172373084911144,0.7518734764205959
+three windows + relative,False,False,model + own-network detector,0.7111399054413575,0.8074934765613997
+version 1 (1 minute),False,False,model + own-network detector,0.7094942932250559,0.7440113733150221
+three windows,False,False,model + detector + smoothing,0.7072813994137293,0.7873070151962664
+three windows,False,True,model,0.7033069755757414,0.7857252196673767
+three windows,False,True,model + computer smoothing,0.7021823057988166,0.7030788067875015
+three windows,False,False,model + own-network detector,0.6998563768712148,0.7444073150475239
+three windows,False,True,model + detector + smoothing,0.6972023298798333,0.7010926498966019
+version 1 (1 minute),False,True,model + own-network detector,0.6857674936078274,0.7706302862327532
+version 1 (1 minute),True,False,model + detector + smoothing,0.6426026429169229,0.7297133394153684
+version 1 (1 minute),True,False,model + own-network detector,0.640390880029662,0.7227183489439251
+three windows,False,False,model,0.6374621548589655,0.7377504779403578
+three windows,False,False,model + computer smoothing,0.6241909705255908,0.7096291018071683
+three windows,False,True,own-network detector only,0.5365482948681488,0.5096952730375981
+three windows,False,False,own-network detector only,0.5365370696866408,0.5109190385724854
+three windows + relative,False,False,own-network detector only,0.5298517901093616,0.5096275225544946
+three windows + relative,False,True,own-network detector only,0.5297830220390924,0.5054960449024114
+relative only,True,True,own-network detector only,0.5247105254053324,0.484041269619222
+relative only,True,False,own-network detector only,0.5245937281609927,0.48607799792773765
+version 1 (1 minute),False,True,own-network detector only,0.5221446483918126,0.4976436440851044
+version 1 (1 minute),False,False,own-network detector only,0.521328854742298,0.49680243461657947
+three windows + relative,True,True,own-network detector only,0.5133447945767123,0.5090915466549999
+three windows + relative,True,False,own-network detector only,0.5121692787119618,0.5072165426908715
+three windows,True,True,own-network detector only,0.5090255572213975,0.4980965906429663
+relative only,False,False,own-network detector only,0.5071566732544067,0.47056014920886036
+relative only,False,True,own-network detector only,0.5065113075897827,0.4651456928837658
+three windows,True,False,own-network detector only,0.48260598332243865,0.49473241867502343
+version 1 (1 minute),True,False,own-network detector only,0.44708147750120447,0.46530835280835636
+version 1 (1 minute),True,True,own-network detector only,0.44613382593591727,0.46664444015628165

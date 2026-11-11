@@ -1,0 +1,14 @@
+{
+ "version_2_features": [
+  "src_dst_ports_1",
+  "src_port_fanout_1",
+  "rel_dst_flows",
+  "service_repeat_1",
+  "src_dst_ports_10",
+  "src_port_fanout_10",
+  "service_repeat_10",
+  "src_dst_ports_60",
+  "src_port_fanout_60",
+  "service_repeat_60"
+ ]
+}

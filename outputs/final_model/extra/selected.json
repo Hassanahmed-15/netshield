@@ -1,0 +1,77 @@
+{
+ "all": {
+  "align": "coral",
+  "view": "domain-pruned (full)",
+  "cols": [
+   "log_dur",
+   "log_pkt_rate",
+   "log_byte_rate",
+   "log_fwd_pkt_rate",
+   "no_response",
+   "single_pkt"
+  ],
+  "u2c_source": "official",
+  "dev_mean_roc": 0.8269680668729293,
+  "lofo_cols": [
+   "log_dur",
+   "log_pkt_rate",
+   "log_byte_rate",
+   "log_fwd_pkt_rate",
+   "no_response",
+   "single_pkt"
+  ],
+  "lofo_dropped": [],
+  "lofo_dev_mean_roc": 0.8338758037333,
+  "dev_mean_roc_quick": 0.8338760872764918
+ },
+ "shared": {
+  "align": "coral",
+  "view": "counts+rates+ratios",
+  "cols": [
+   "log_dur",
+   "log_fwd_pkts",
+   "log_bwd_pkts",
+   "log_fwd_bytes",
+   "log_bwd_bytes",
+   "log_total_pkts",
+   "log_total_bytes",
+   "log_pkt_rate",
+   "log_byte_rate",
+   "log_fwd_pkt_rate",
+   "log_bwd_pkt_rate",
+   "fwd_pkt_frac",
+   "fwd_byte_frac",
+   "log_fwd_pkt_size",
+   "log_bwd_pkt_size",
+   "log_avg_pkt_size",
+   "no_response",
+   "single_pkt"
+  ],
+  "u2c_source": "full",
+  "dev_mean_roc": 0.8444194968384997,
+  "lofo_cols": [
+   "log_fwd_bytes",
+   "log_total_pkts",
+   "log_bwd_pkt_rate",
+   "fwd_byte_frac",
+   "log_fwd_pkt_size",
+   "log_avg_pkt_size",
+   "no_response"
+  ],
+  "lofo_dropped": [
+   "fwd_pkt_frac",
+   "log_bwd_bytes",
+   "log_bwd_pkt_size",
+   "log_bwd_pkts",
+   "log_byte_rate",
+   "log_dur",
+   "log_fwd_pkt_rate",
+   "log_fwd_pkts",
+   "log_pkt_rate",
+   "log_total_bytes",
+   "single_pkt"
+  ],
+  "lofo_dev_mean_roc": 0.8471231023105643,
+  "dev_mean_roc_quick": 0.8165026833254505
+ }
+}

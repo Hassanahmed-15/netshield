@@ -1,0 +1,12 @@
+metric,value
+total_rows,2830743
+total_columns_in_memory,82
+original_csv_files,8
+numeric_features,78
+non_numeric_columns,4
+unique_labels,15
+exact_duplicate_rows,256479
+columns_with_missing_values,1
+constant_numeric_features,8
+near_constant_numeric_features,21
+features_with_infinite_values,2

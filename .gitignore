@@ -1,0 +1,8 @@
+# Datasets are too large for GitHub; see README for where to download them
+data/
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+reports/team_briefing.html

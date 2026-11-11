@@ -1,0 +1,4 @@
+split,feature_groups_crossing_train_test
+random_stratified,42786
+duplicate_aware,0
+capture_aware,13219

@@ -1,0 +1,5 @@
+quantity,value
+source_attack_prior,0.6390802367323178
+estimated_target_attack_prior,0.2129130579055554
+target_attack_rate_at_source_threshold,0.7404976428466711
+target_attack_rate_after_prior_correction_0.5,3.5326389342734865e-06

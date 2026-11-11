@@ -1,0 +1,31 @@
+Feature 1,Feature 2,Correlation,Absolute correlation
+Total Fwd Packets,Subflow Fwd Packets,1.0,1.0
+Fwd Packet Length Mean,Avg Fwd Segment Size,1.0,1.0
+Total Backward Packets,Subflow Bwd Packets,1.0,1.0
+Fwd Header Length,Fwd Header Length.1,1.0,1.0
+Bwd Packet Length Mean,Avg Bwd Segment Size,1.0,1.0
+Fwd PSH Flags,SYN Flag Count,1.0,1.0
+Fwd URG Flags,CWE Flag Count,1.0,1.0
+Total Length of Bwd Packets,Subflow Bwd Bytes,0.9999998601345076,0.9999998601345076
+Total Length of Fwd Packets,Subflow Fwd Bytes,0.9999993580552905,0.9999993580552905
+Total Fwd Packets,Subflow Bwd Packets,0.9990699513708727,0.9990699513708727
+Total Fwd Packets,Total Backward Packets,0.9990699513708727,0.9990699513708727
+Subflow Fwd Packets,Subflow Bwd Packets,0.9990699513708727,0.9990699513708727
+Total Backward Packets,Subflow Fwd Packets,0.9990699513708726,0.9990699513708726
+Flow Duration,Fwd IAT Total,0.9985599326310316,0.9985599326310316
+Flow IAT Max,Fwd IAT Max,0.9980843380304667,0.9980843380304667
+RST Flag Count,ECE Flag Count,0.9978200279292049,0.9978200279292049
+Packet Length Mean,Average Packet Size,0.9977896522977948,0.9977896522977948
+Total Length of Bwd Packets,Subflow Fwd Packets,0.9969928007533867,0.9969928007533867
+Total Fwd Packets,Total Length of Bwd Packets,0.9969928007533867,0.9969928007533867
+Total Fwd Packets,Subflow Bwd Bytes,0.9969866573972533,0.9969866573972533
+Subflow Fwd Packets,Subflow Bwd Bytes,0.9969866573972533,0.9969866573972533
+Total Backward Packets,Total Length of Bwd Packets,0.9944292856837716,0.9944292856837716
+Total Length of Bwd Packets,Subflow Bwd Packets,0.9944292856837716,0.9944292856837716
+Subflow Bwd Packets,Subflow Bwd Bytes,0.9944241078556112,0.9944241078556112
+Total Backward Packets,Subflow Bwd Bytes,0.9944241078556112,0.9944241078556112
+Idle Mean,Idle Max,0.990386838347062,0.990386838347062
+Idle Mean,Idle Min,0.9902153860786643,0.9902153860786643
+Flow IAT Max,Idle Max,0.9891858560815253,0.9891858560815253
+Fwd IAT Max,Idle Max,0.9883578980142116,0.9883578980142116
+Flow Packets/s,Fwd Packets/s,0.9875620650640273,0.9875620650640273

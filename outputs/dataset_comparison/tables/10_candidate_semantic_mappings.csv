@@ -1,0 +1,10 @@
+Semantic concept,UNSW candidate,CICIDS candidate,Initial confidence,UNSW present,CICIDS present
+Flow duration,dur,Flow Duration,High,True,True
+Source/forward packet count,spkts,Total Fwd Packets,High,True,True
+Destination/backward packet count,dpkts,Total Backward Packets,High,True,True
+Source/forward bytes,sbytes,Total Length of Fwd Packets,Medium-High,True,True
+Destination/backward bytes,dbytes,Total Length of Bwd Packets,Medium-High,True,True
+Overall packet rate,rate,Flow Packets/s,Medium-High,True,True
+Forward packet rate,sload,Fwd Packets/s,Medium,True,True
+Backward packet rate,dload,Bwd Packets/s,Medium,True,True
+Transport protocol,proto,Protocol,Medium,True,False

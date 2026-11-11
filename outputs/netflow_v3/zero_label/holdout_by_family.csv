@@ -1,0 +1,5 @@
+kind,source,target,view,family,n,recall,roc_vs_benign
+three sources,UNSW+ToN+CIC2018,BoT,per-computer,DDoS,77650,0.9410302640051513,0.9674923955490666
+three sources,UNSW+ToN+CIC2018,BoT,per-computer,DoS,149131,0.9445453996821587,0.9873708895466565
+three sources,UNSW+ToN+CIC2018,BoT,per-computer,Reconnaissance,3293,0.06559368357121166,0.512077026009697
+three sources,UNSW+ToN+CIC2018,BoT,per-computer,Theft,59,0.3389830508474576,0.8798586861543194

@@ -1,0 +1,38 @@
+{
+  "phase": "09_controlled_domain_adaptation",
+  "research_question": "Can unsupervised domain adaptation genuinely improve cross-dataset NIDS performance?",
+  "method": "CORAL",
+  "common_features": [
+    "flow_duration_sec",
+    "fwd_packets",
+    "bwd_packets",
+    "fwd_bytes",
+    "bwd_bytes",
+    "total_packets",
+    "total_bytes",
+    "packet_rate",
+    "fwd_packet_rate",
+    "bwd_packet_rate",
+    "avg_packet_size"
+  ],
+  "directions": [
+    "UNSW_to_CICIDS",
+    "CICIDS_to_UNSW"
+  ],
+  "methods": [
+    "common_baseline",
+    "CORAL",
+    "CORAL_class_weighted"
+  ],
+  "models": [
+    "Logistic Regression",
+    "Random Forest"
+  ],
+  "target_adaptation_fraction": 0.2,
+  "target_evaluation_fraction": 0.8,
+  "target_labels_used_for_alignment": false,
+  "target_labels_used_for_model_selection": false,
+  "cicids_source_cap": 600000,
+  "random_state": 42,
+  "important_note": "This phase is the corrected follow-up to the initial CORAL experiment. Target adaptation and final evaluation rows are disjoint."
+}

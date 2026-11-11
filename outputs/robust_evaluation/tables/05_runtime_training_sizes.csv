@@ -1,0 +1,4 @@
+split,original_train_rows,model_train_rows,test_rows
+random_stratified,2264594,600000,566149
+duplicate_aware,2268315,600000,562428
+capture_aware,1788613,600000,1042130

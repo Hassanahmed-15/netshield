@@ -1,0 +1,9 @@
+Semantic concept,UNSW feature,CICIDS feature,KS statistic,Robust median shift,Zero-rate difference,KS rank,Median rank,Zero rank,Combined investigation rank
+Source/forward bytes,sbytes,Total Length of Fwd Packets,0.6658200000000001,0.6549543218552354,0.1586756551195216,2.0,1.0,4.0,7.0
+Backward packet rate,dload,Bwd Packets/s,0.30486,0.11729251703358955,0.3062811460647815,7.0,3.0,2.0,12.0
+Source/forward packet count,spkts,Total Fwd Packets,0.3336,0.3076923076923077,0.0,4.0,2.0,8.0,14.0
+Flow duration,dur,Flow Duration,0.9359400000000001,0.019543949805608928,0.012985553967318408,1.0,6.0,7.0,14.0
+Destination/backward packet count,dpkts,Total Backward Packets,0.30522000000000005,0.0,0.30661222983350933,6.0,8.0,1.0,15.0
+Destination/backward bytes,dbytes,Total Length of Bwd Packets,0.21626000000000004,0.07115135834411385,0.21680294654640064,8.0,4.0,3.0,15.0
+Overall packet rate,rate,Flow Packets/s,0.33216,0.03840450661012897,0.015399362758224571,5.0,5.0,5.0,15.0
+Forward packet rate,sload,Fwd Packets/s,0.56554,0.01859708780971634,0.014376976186079186,3.0,7.0,6.0,16.0

@@ -1,0 +1,77 @@
+{
+  "project": "NetShield",
+  "target": "binary intrusion detection",
+  "random_state": 42,
+  "native_unsw": {
+    "keep_official_train_test_split": true,
+    "exclude": [
+      "attack_cat",
+      "id",
+      "label",
+      "label_binary"
+    ],
+    "fit_preprocessing_on_training_only": true
+  },
+  "native_cicids": {
+    "exclude_metadata": [
+      "Destination IP",
+      "Flow ID",
+      "Label",
+      "Source IP",
+      "Timestamp",
+      "label_binary",
+      "source_file"
+    ],
+    "remove_constant_features": [
+      "Bwd Avg Bulk Rate",
+      "Bwd Avg Bytes/Bulk",
+      "Bwd Avg Packets/Bulk",
+      "Bwd PSH Flags",
+      "Bwd URG Flags",
+      "Fwd Avg Bulk Rate",
+      "Fwd Avg Bytes/Bulk",
+      "Fwd Avg Packets/Bulk"
+    ],
+    "source_file_is_metadata_only": true,
+    "fit_preprocessing_on_training_only": true
+  },
+  "data_quality": {
+    "replace_infinity_with_nan": true,
+    "conservative_domain_invalid_values_to_nan": true,
+    "do_not_blanket_delete_rows": true,
+    "preserve_meaningful_zero_values": true,
+    "do_not_automatically_remove_outliers": true,
+    "do_not_automatically_remove_all_correlated_features": true
+  },
+  "common_semantic_features": [
+    "flow_duration_sec",
+    "fwd_packets",
+    "bwd_packets",
+    "fwd_bytes",
+    "bwd_bytes",
+    "total_packets",
+    "total_bytes",
+    "packet_rate",
+    "fwd_packet_rate",
+    "bwd_packet_rate",
+    "avg_packet_size"
+  ],
+  "semantic_alignment": {
+    "duration_unit_alignment": "CICIDS microseconds converted to seconds",
+    "rate_alignment": "derived/direct packet-rate quantities, not UNSW sload/dload",
+    "name_matching_alone_is_not_accepted": true
+  },
+  "future_modeling": {
+    "primary_task": "binary classification",
+    "main_metrics": [
+      "precision",
+      "recall",
+      "f1",
+      "macro_f1",
+      "pr_auc",
+      "false_positive_rate",
+      "confusion_matrix"
+    ],
+    "class_weighting_preferred_before_smote": true
+  }
+}

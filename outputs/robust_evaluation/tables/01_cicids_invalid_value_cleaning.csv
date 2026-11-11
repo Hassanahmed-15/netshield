@@ -1,0 +1,60 @@
+feature,negative_values_replaced
+Flow Duration,115
+Total Fwd Packets,0
+Total Backward Packets,0
+Total Length of Fwd Packets,0
+Total Length of Bwd Packets,0
+Fwd Packet Length Max,0
+Fwd Packet Length Min,0
+Fwd Packet Length Mean,0
+Fwd Packet Length Std,0
+Bwd Packet Length Max,0
+Bwd Packet Length Min,0
+Bwd Packet Length Mean,0
+Bwd Packet Length Std,0
+Flow Bytes/s,85
+Flow Packets/s,115
+Flow IAT Mean,115
+Flow IAT Std,0
+Flow IAT Max,115
+Flow IAT Min,2891
+Fwd IAT Total,0
+Fwd IAT Mean,0
+Fwd IAT Std,0
+Fwd IAT Max,0
+Fwd IAT Min,17
+Bwd IAT Total,0
+Bwd IAT Mean,0
+Bwd IAT Std,0
+Bwd IAT Max,0
+Bwd IAT Min,0
+Fwd PSH Flags,0
+Bwd PSH Flags,0
+Fwd URG Flags,0
+Bwd URG Flags,0
+Fwd Header Length,35
+Bwd Header Length,22
+Fwd Packets/s,0
+Bwd Packets/s,0
+Min Packet Length,0
+Max Packet Length,0
+Packet Length Mean,0
+Packet Length Std,0
+Packet Length Variance,0
+Average Packet Size,0
+Avg Fwd Segment Size,0
+Avg Bwd Segment Size,0
+Subflow Fwd Packets,0
+Subflow Fwd Bytes,0
+Subflow Bwd Packets,0
+Subflow Bwd Bytes,0
+act_data_pkt_fwd,0
+min_seg_size_forward,35
+Active Mean,0
+Active Std,0
+Active Max,0
+Active Min,0
+Idle Mean,0
+Idle Std,0
+Idle Max,0
+Idle Min,0

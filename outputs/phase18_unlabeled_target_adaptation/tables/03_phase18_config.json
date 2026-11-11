@@ -1,0 +1,16 @@
+{
+  "phase": 18,
+  "method": "unlabeled_target_self_training_after_CORAL",
+  "random_state": 42,
+  "target_pool_n": 600000,
+  "pseudo_label_iteration_1": {
+    "rows": 30,
+    "attack_rows": 30
+  },
+  "pseudo_label_iteration_2": {
+    "rows": 0,
+    "attack_rows": 0
+  },
+  "decision": "rejected_due_to_insufficient_confident_pseudo_labels",
+  "methodological_note": "Self-training was not forced when the CORAL + balanced model produced too few high-confidence pseudo-labels."
+}

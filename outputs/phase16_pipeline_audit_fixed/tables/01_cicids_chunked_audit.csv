@@ -1,0 +1,9 @@
+file,rows,missing_cells,benign,attack,attack_rate
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,225745,4,97718,128027,0.5671310549513832
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,286467,15,127537,158930,0.5547933967961406
+Friday-WorkingHours-Morning.pcap_ISCX.csv,191033,28,189067,1966,0.010291415619290908
+Monday-WorkingHours.pcap_ISCX.csv,529918,64,529918,0,0.0
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,288602,18,288566,36,0.00012473926029618645
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,170366,20,168186,2180,0.01279598041862813
+Tuesday-WorkingHours.pcap_ISCX.csv,445909,201,432074,13835,0.031026509893274188
+Wednesday-workingHours.pcap_ISCX.csv,692703,1008,440031,252672,0.36476238734349353

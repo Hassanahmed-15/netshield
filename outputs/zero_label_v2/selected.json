@@ -1,0 +1,8 @@
+{
+ "view": "three windows + relative",
+ "consistent_features_only": true,
+ "self_training": true,
+ "variant": "model + computer smoothing",
+ "dev_mean_balanced_accuracy": 0.894439107829314,
+ "dev_mean_roc_auc": 0.9661443886319091
+}

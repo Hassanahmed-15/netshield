@@ -1,0 +1,25 @@
+method,sources,family,n,recall
+"version 1, locked in section 9",UNSW+ToN+CIC2018,Bot,291,0.020618556701030927
+"version 1, locked in section 9",UNSW+ToN+CIC2018,DoS GoldenEye,9497,0.7831946930609667
+"version 1, locked in section 9",UNSW+ToN+CIC2018,DoS Hulk,38004,0.9994474265866751
+"version 1, locked in section 9",UNSW+ToN+CIC2018,DoS slowloris,2027,0.5441539220522941
+"version 1, locked in section 9",UNSW+ToN+CIC2018,FTP-Patator,3119,0.5838409746713691
+"version 1, locked in section 9",UNSW+ToN+CIC2018,Heartbleed,10,0.0
+"version 1, locked in section 9",UNSW+ToN+CIC2018,Infiltration,17,0.0
+"version 1, locked in section 9",UNSW+ToN+CIC2018,PortScan,7863,0.0
+"version 1, locked in section 9",UNSW+ToN+CIC2018,SSH-Patator,801,0.06741573033707865
+"version 1, locked in section 9",UNSW+ToN+CIC2018,Web Attack  Brute Force,144,0.0
+"version 1, locked in section 9",UNSW+ToN+CIC2018,Web Attack  Sql Injection,20,0.0
+"version 1, locked in section 9",UNSW+ToN+CIC2018,Web Attack  XSS,604,0.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,Bot,280,0.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,DoS GoldenEye,9493,1.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,DoS Hulk,38089,1.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,DoS slowloris,2048,0.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,FTP-Patator,3137,1.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,Heartbleed,11,0.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,Infiltration,16,0.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,PortScan,7844,0.9956654767975522
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,SSH-Patator,793,0.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,Web Attack  Brute Force,147,0.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,Web Attack  Sql Injection,21,0.0
+"version 2, locked on dev",UNSW+ToN+CIC2018+BoT,Web Attack  XSS,590,0.0

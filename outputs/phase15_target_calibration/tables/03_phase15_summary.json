@@ -1,0 +1,12 @@
+{
+  "phase12_benchmark_f1": 0.3385,
+  "phase15_best_f1": 0.28076667275854855,
+  "phase15_best_method": "expanded + CORAL + balanced | calibrated source threshold",
+  "f1_gain_over_phase12": -0.05773332724145147,
+  "estimated_target_attack_prior": 0.2129130579055554,
+  "source_attack_prior": 0.6390802367323178,
+  "em_iterations": 133,
+  "evaluation_n": 566149,
+  "adaptation_n": 300000,
+  "leakage_rule": "CICIDS labels used only for final frozen evaluation; no CICIDS labels used to fit CORAL, calibrator, prior estimator, or decision threshold."
+}

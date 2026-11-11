@@ -1,0 +1,14 @@
+{
+  "random_state": 42,
+  "cicids_total_rows": 2830743,
+  "cicids_sample_n": 999994,
+  "cicids_eval_n": 299998,
+  "cicids_source_fit_n": 559996,
+  "cicids_source_val_n": 140000,
+  "compact_features": 11,
+  "expanded_features": 37,
+  "historical_phase12_f1_context": 0.3385,
+  "target_labels_used_for_model_selection": false,
+  "target_labels_used_for_threshold_selection": false,
+  "cicids_full_dataframe_loaded": false
+}

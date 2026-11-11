@@ -1,0 +1,10 @@
+NetShield dataset-comparison hypotheses
+
+H1 — Within-dataset performance will exceed cross-dataset performance.
+H2 — Feature-distribution mismatch contributes to transfer degradation.
+H3 — Attack-distribution mismatch contributes to transfer degradation.
+H4 — A common semantic representation may improve robustness.
+H5 — Improvements will be attack-dependent.
+
+These are hypotheses to test with controlled ML experiments; they are
+not conclusions established by this notebook.

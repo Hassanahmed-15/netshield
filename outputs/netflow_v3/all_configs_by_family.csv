@@ -1,0 +1,793 @@
+scope,source,target,align,view,family,n,recall,roc_vs_benign
+all,UNSW,ToN,none,behaviour,Backdoor,2252,0.9968916518650088,0.7547616257133752
+all,UNSW,ToN,none,behaviour,ddos,25753,0.035491010756028424,0.09869478629798038
+all,UNSW,ToN,none,behaviour,dos,2916,0.622085048010974,0.5729523838615354
+all,UNSW,ToN,none,behaviour,injection,15002,0.30715904546060524,0.25854873409908063
+all,UNSW,ToN,none,behaviour,mitm,32,0.1875,0.24234238535830832
+all,UNSW,ToN,none,behaviour,password,46836,0.8449483303441797,0.574202686918151
+all,UNSW,ToN,none,behaviour,ransomware,144,0.8333333333333334,0.409443137113119
+all,UNSW,ToN,none,behaviour,scanning,2677,0.6200971236458722,0.3725606424896971
+all,UNSW,ToN,none,behaviour,xss,87453,0.2253324642951071,0.20845527516573797
+all,UNSW,ToN,none,no absolute counts,Backdoor,2252,0.9973357015985791,0.7314539064264508
+all,UNSW,ToN,none,no absolute counts,ddos,25753,0.035607502038597444,0.08600179429199366
+all,UNSW,ToN,none,no absolute counts,dos,2916,0.630315500685871,0.5206509476918167
+all,UNSW,ToN,none,no absolute counts,injection,15002,0.30902546327156377,0.28596586646425376
+all,UNSW,ToN,none,no absolute counts,mitm,32,0.28125,0.2680073755493936
+all,UNSW,ToN,none,no absolute counts,password,46836,0.8449910325390725,0.6478932233827814
+all,UNSW,ToN,none,no absolute counts,ransomware,144,0.8333333333333334,0.38819546620640216
+all,UNSW,ToN,none,no absolute counts,scanning,2677,0.6264475158759806,0.3165189653546753
+all,UNSW,ToN,none,no absolute counts,xss,87453,0.22614432895383807,0.22852373789913752
+all,UNSW,ToN,none,"wide (flags, TTL, window)",Backdoor,2252,0.0017761989342806395,0.6709269826540418
+all,UNSW,ToN,none,"wide (flags, TTL, window)",ddos,25753,0.5566730089698287,0.8523521204607363
+all,UNSW,ToN,none,"wide (flags, TTL, window)",dos,2916,0.0013717421124828531,0.07025136793193332
+all,UNSW,ToN,none,"wide (flags, TTL, window)",injection,15002,0.5583922143714172,0.853118744121927
+all,UNSW,ToN,none,"wide (flags, TTL, window)",mitm,32,0.1875,0.6234882835342275
+all,UNSW,ToN,none,"wide (flags, TTL, window)",password,46836,0.1237723118968315,0.7724372103303139
+all,UNSW,ToN,none,"wide (flags, TTL, window)",ransomware,144,0.034722222222222224,0.6663782809038453
+all,UNSW,ToN,none,"wide (flags, TTL, window)",scanning,2677,0.3145311916324244,0.7342271245750852
+all,UNSW,ToN,none,"wide (flags, TTL, window)",xss,87453,0.07972282254468115,0.7507287593684263
+all,UNSW,ToN,quantile,behaviour,Backdoor,2252,0.0017761989342806395,0.5983128731888175
+all,UNSW,ToN,quantile,behaviour,ddos,25753,0.03436492835786122,0.16593256883880986
+all,UNSW,ToN,quantile,behaviour,dos,2916,0.51440329218107,0.5222516531066984
+all,UNSW,ToN,quantile,behaviour,injection,15002,0.007332355685908546,0.2673052901355115
+all,UNSW,ToN,quantile,behaviour,mitm,32,0.25,0.4525891644502292
+all,UNSW,ToN,quantile,behaviour,password,46836,0.0072593731317789735,0.319867589501591
+all,UNSW,ToN,quantile,behaviour,ransomware,144,0.027777777777777776,0.1535630935389014
+all,UNSW,ToN,quantile,behaviour,scanning,2677,0.03361972357116175,0.22292426056207795
+all,UNSW,ToN,quantile,behaviour,xss,87453,0.004470972979771992,0.2951268013904383
+all,UNSW,ToN,quantile,no absolute counts,Backdoor,2252,0.0008880994671403197,0.4162611015783889
+all,UNSW,ToN,quantile,no absolute counts,ddos,25753,0.033898963227585135,0.28948643691650594
+all,UNSW,ToN,quantile,no absolute counts,dos,2916,0.4790809327846365,0.5154552929882845
+all,UNSW,ToN,quantile,no absolute counts,injection,15002,0.003932808958805493,0.26954666345419753
+all,UNSW,ToN,quantile,no absolute counts,mitm,32,0.03125,0.4278906235263049
+all,UNSW,ToN,quantile,no absolute counts,password,46836,0.007067213254761295,0.25969239377691483
+all,UNSW,ToN,quantile,no absolute counts,ransomware,144,0.027777777777777776,0.3038462656958356
+all,UNSW,ToN,quantile,no absolute counts,scanning,2677,0.03137840866641763,0.23511144118476285
+all,UNSW,ToN,quantile,no absolute counts,xss,87453,0.0022526385601408755,0.2943904539842663
+all,UNSW,ToN,quantile,"wide (flags, TTL, window)",Backdoor,2252,0.9928952042628775,0.9547226451945381
+all,UNSW,ToN,quantile,"wide (flags, TTL, window)",ddos,25753,0.9714984661981129,0.6017588742167133
+all,UNSW,ToN,quantile,"wide (flags, TTL, window)",dos,2916,0.9410150891632373,0.8024989541737529
+all,UNSW,ToN,quantile,"wide (flags, TTL, window)",injection,15002,0.9861351819757366,0.6608578498174854
+all,UNSW,ToN,quantile,"wide (flags, TTL, window)",mitm,32,0.8125,0.5973472898157056
+all,UNSW,ToN,quantile,"wide (flags, TTL, window)",password,46836,0.9992313604919293,0.6755419068263384
+all,UNSW,ToN,quantile,"wide (flags, TTL, window)",ransomware,144,1.0,0.8585585401484331
+all,UNSW,ToN,quantile,"wide (flags, TTL, window)",scanning,2677,0.7717594322002241,0.5421246186673746
+all,UNSW,ToN,quantile,"wide (flags, TTL, window)",xss,87453,0.9919728311207163,0.6542782133316944
+all,UNSW,ToN,coral,behaviour,Backdoor,2252,0.0,0.5586752548949169
+all,UNSW,ToN,coral,behaviour,ddos,25753,0.028967498932163244,0.2024337544889574
+all,UNSW,ToN,coral,behaviour,dos,2916,0.4790809327846365,0.5782245397167768
+all,UNSW,ToN,coral,behaviour,injection,15002,0.0001999733368884149,0.25304852492419644
+all,UNSW,ToN,coral,behaviour,mitm,32,0.0,0.30084867155226075
+all,UNSW,ToN,coral,behaviour,password,46836,2.1351097446408747e-05,0.4159004438726137
+all,UNSW,ToN,coral,behaviour,ransomware,144,0.0,0.39277315626984577
+all,UNSW,ToN,coral,behaviour,scanning,2677,0.010085917071348524,0.34471330997173455
+all,UNSW,ToN,coral,behaviour,xss,87453,0.0005603009616594057,0.226170007826516
+all,UNSW,ToN,coral,no absolute counts,Backdoor,2252,0.0008880994671403197,0.5444550884147557
+all,UNSW,ToN,coral,no absolute counts,ddos,25753,0.03397662408263115,0.2650870675376499
+all,UNSW,ToN,coral,no absolute counts,dos,2916,0.4790809327846365,0.5244491108465075
+all,UNSW,ToN,coral,no absolute counts,injection,15002,0.058325556592454336,0.36839592672674354
+all,UNSW,ToN,coral,no absolute counts,mitm,32,0.0,0.19758036943768512
+all,UNSW,ToN,coral,no absolute counts,password,46836,0.5334571696985225,0.5383731848729782
+all,UNSW,ToN,coral,no absolute counts,ransomware,144,0.027777777777777776,0.2979983159267014
+all,UNSW,ToN,coral,no absolute counts,scanning,2677,0.03436682853940979,0.2894142809369057
+all,UNSW,ToN,coral,no absolute counts,xss,87453,0.03177706882554058,0.25538307925322495
+all,UNSW,ToN,coral,"wide (flags, TTL, window)",Backdoor,2252,0.988898756660746,0.9049503223496338
+all,UNSW,ToN,coral,"wide (flags, TTL, window)",ddos,25753,0.04170387915970955,0.13908231850597347
+all,UNSW,ToN,coral,"wide (flags, TTL, window)",dos,2916,0.4790809327846365,0.5823256638632288
+all,UNSW,ToN,coral,"wide (flags, TTL, window)",injection,15002,0.021063858152246366,0.17509369464839591
+all,UNSW,ToN,coral,"wide (flags, TTL, window)",mitm,32,0.09375,0.23068663582517496
+all,UNSW,ToN,coral,"wide (flags, TTL, window)",password,46836,0.03241096592364848,0.3309486715364326
+all,UNSW,ToN,coral,"wide (flags, TTL, window)",ransomware,144,0.027777777777777776,0.2649160871442434
+all,UNSW,ToN,coral,"wide (flags, TTL, window)",scanning,2677,0.1303698169592828,0.2180718833415879
+all,UNSW,ToN,coral,"wide (flags, TTL, window)",xss,87453,0.012212274021474392,0.11766321424317025
+all,UNSW,CIC2018,none,behaviour,Bot,279,0.11469534050179211,0.09962661021528077
+all,UNSW,CIC2018,none,behaviour,Brute_Force_-Web,81,0.8641975308641975,0.4428084808617784
+all,UNSW,CIC2018,none,behaviour,Brute_Force_-XSS,9,1.0,0.3271250855330398
+all,UNSW,CIC2018,none,behaviour,DDOS_attack-HOIC,7945,1.0,0.24165125391164471
+all,UNSW,CIC2018,none,behaviour,DDoS_attacks-LOIC-HTTP,31356,1.0,0.9163183535072905
+all,UNSW,CIC2018,none,behaviour,DoS_attacks-GoldenEye,7533,0.00026549847338377806,0.004309240588100937
+all,UNSW,CIC2018,none,behaviour,DoS_attacks-Hulk,14879,0.0705020498689428,0.04399238389921406
+all,UNSW,CIC2018,none,behaviour,DoS_attacks-Slowloris,1248,0.05929487179487179,0.04516113426253956
+all,UNSW,CIC2018,none,behaviour,FTP-BruteForce,1,0.0,0.08545571690848752
+all,UNSW,CIC2018,none,behaviour,Infilteration,6619,0.6633932618220275,0.3903501937960969
+all,UNSW,CIC2018,none,behaviour,SQL_Injection,4,1.0,0.36509741122895467
+all,UNSW,CIC2018,none,behaviour,SSH-Bruteforce,16640,0.0,0.0
+all,UNSW,CIC2018,none,no absolute counts,Bot,279,1.0,0.13549235602914056
+all,UNSW,CIC2018,none,no absolute counts,Brute_Force_-Web,81,1.0,0.32266774312514374
+all,UNSW,CIC2018,none,no absolute counts,Brute_Force_-XSS,9,1.0,0.2718124455481638
+all,UNSW,CIC2018,none,no absolute counts,DDOS_attack-HOIC,7945,1.0,0.6036016466400005
+all,UNSW,CIC2018,none,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,1.0,0.9655427259242593
+all,UNSW,CIC2018,none,no absolute counts,DoS_attacks-GoldenEye,7533,0.0035842293906810036,0.0028641789500316686
+all,UNSW,CIC2018,none,no absolute counts,DoS_attacks-Hulk,14879,0.0705020498689428,0.04881930030092442
+all,UNSW,CIC2018,none,no absolute counts,DoS_attacks-Slowloris,1248,0.06009615384615385,0.03104218486215762
+all,UNSW,CIC2018,none,no absolute counts,FTP-BruteForce,1,0.0,0.08393097861613186
+all,UNSW,CIC2018,none,no absolute counts,Infilteration,6619,0.7201994258951503,0.3895416106220506
+all,UNSW,CIC2018,none,no absolute counts,SQL_Injection,4,1.0,0.3331541440041035
+all,UNSW,CIC2018,none,no absolute counts,SSH-Bruteforce,16640,0.0,4.175296199208369e-05
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",Bot,279,0.007168458781362007,0.38330022208799036
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",Brute_Force_-Web,81,0.08641975308641975,0.25148147221431616
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",Brute_Force_-XSS,9,0.8888888888888888,0.7533279259423751
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,1.0,0.8315233277119877
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,0.9905919122337032,0.744715973566695
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.9684056816673304,0.9626759002692266
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,0.9999327911822031,0.9964935646980466
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.8125,0.8452310825088518
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",FTP-BruteForce,1,0.0,0.1656882277693157
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",Infilteration,6619,0.18114518809487837,0.3302554132697812
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",SQL_Injection,4,0.75,0.7432430636136453
+all,UNSW,CIC2018,none,"wide (flags, TTL, window)",SSH-Bruteforce,16640,1.0,0.9881242878539889
+all,UNSW,CIC2018,quantile,behaviour,Bot,279,0.0,0.1626923363259514
+all,UNSW,CIC2018,quantile,behaviour,Brute_Force_-Web,81,0.09876543209876543,0.5950888194083168
+all,UNSW,CIC2018,quantile,behaviour,Brute_Force_-XSS,9,0.3333333333333333,0.654081711376685
+all,UNSW,CIC2018,quantile,behaviour,DDOS_attack-HOIC,7945,0.0,0.4158858906972286
+all,UNSW,CIC2018,quantile,behaviour,DDoS_attacks-LOIC-HTTP,31356,3.189182293659906e-05,0.5357649070929924
+all,UNSW,CIC2018,quantile,behaviour,DoS_attacks-GoldenEye,7533,0.00026549847338377806,0.5942925263960099
+all,UNSW,CIC2018,quantile,behaviour,DoS_attacks-Hulk,14879,6.720881779689495e-05,0.3303637829605444
+all,UNSW,CIC2018,quantile,behaviour,DoS_attacks-Slowloris,1248,0.1578525641025641,0.8054181526349042
+all,UNSW,CIC2018,quantile,behaviour,FTP-BruteForce,1,0.0,0.47764499088284695
+all,UNSW,CIC2018,quantile,behaviour,Infilteration,6619,0.03399305030971446,0.6461426577998893
+all,UNSW,CIC2018,quantile,behaviour,SQL_Injection,4,0.25,0.6114354980968139
+all,UNSW,CIC2018,quantile,behaviour,SSH-Bruteforce,16640,0.0,0.12892272006815436
+all,UNSW,CIC2018,quantile,no absolute counts,Bot,279,0.0,0.09843613726777861
+all,UNSW,CIC2018,quantile,no absolute counts,Brute_Force_-Web,81,0.09876543209876543,0.49176771641640105
+all,UNSW,CIC2018,quantile,no absolute counts,Brute_Force_-XSS,9,0.3333333333333333,0.6116649690378215
+all,UNSW,CIC2018,quantile,no absolute counts,DDOS_attack-HOIC,7945,0.0,0.0599270477177447
+all,UNSW,CIC2018,quantile,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,3.189182293659906e-05,0.595300996514498
+all,UNSW,CIC2018,quantile,no absolute counts,DoS_attacks-GoldenEye,7533,0.00026549847338377806,0.5706895690150361
+all,UNSW,CIC2018,quantile,no absolute counts,DoS_attacks-Hulk,14879,6.720881779689495e-05,0.4562244003626899
+all,UNSW,CIC2018,quantile,no absolute counts,DoS_attacks-Slowloris,1248,0.1578525641025641,0.7847341491725753
+all,UNSW,CIC2018,quantile,no absolute counts,FTP-BruteForce,1,0.0,0.0009046780534643362
+all,UNSW,CIC2018,quantile,no absolute counts,Infilteration,6619,0.03323764919172081,0.6383811482266444
+all,UNSW,CIC2018,quantile,no absolute counts,SQL_Injection,4,0.25,0.5861567055644347
+all,UNSW,CIC2018,quantile,no absolute counts,SSH-Bruteforce,16640,0.0,0.05263364255948165
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",Bot,279,1.0,0.7444522339079307
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",Brute_Force_-Web,81,0.2839506172839506,0.540160129666177
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",Brute_Force_-XSS,9,0.0,0.3577879635508488
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,0.0,0.29797070188909575
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,0.0,0.29747741100327096
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.0,0.12809093111254288
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,0.0,0.1486567115159172
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.0,0.11118055365923957
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",FTP-BruteForce,1,0.0,0.46931601022121994
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",Infilteration,6619,0.5494787732285844,0.5959435143777454
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",SQL_Injection,4,0.0,0.3430025850178433
+all,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",SSH-Bruteforce,16640,0.0,0.1482546047096429
+all,UNSW,CIC2018,coral,behaviour,Bot,279,0.0,0.4736414129200031
+all,UNSW,CIC2018,coral,behaviour,Brute_Force_-Web,81,0.09876543209876543,0.8789080553174087
+all,UNSW,CIC2018,coral,behaviour,Brute_Force_-XSS,9,0.2222222222222222,0.9751371221907023
+all,UNSW,CIC2018,coral,behaviour,DDOS_attack-HOIC,7945,0.0,0.4831202390661308
+all,UNSW,CIC2018,coral,behaviour,DDoS_attacks-LOIC-HTTP,31356,3.189182293659906e-05,0.8106025824901335
+all,UNSW,CIC2018,coral,behaviour,DoS_attacks-GoldenEye,7533,0.00026549847338377806,0.5243772076600242
+all,UNSW,CIC2018,coral,behaviour,DoS_attacks-Hulk,14879,6.720881779689495e-05,0.4386187542857152
+all,UNSW,CIC2018,coral,behaviour,DoS_attacks-Slowloris,1248,0.1578525641025641,0.6460571514566553
+all,UNSW,CIC2018,coral,behaviour,FTP-BruteForce,1,0.0,0.7690060582934817
+all,UNSW,CIC2018,coral,behaviour,Infilteration,6619,0.032935488744523345,0.6344828677593687
+all,UNSW,CIC2018,coral,behaviour,SQL_Injection,4,0.25,0.8779577968079016
+all,UNSW,CIC2018,coral,behaviour,SSH-Bruteforce,16640,0.0,0.4659549728110141
+all,UNSW,CIC2018,coral,no absolute counts,Bot,279,0.0,0.6959687343255755
+all,UNSW,CIC2018,coral,no absolute counts,Brute_Force_-Web,81,0.09876543209876543,0.8769344387053661
+all,UNSW,CIC2018,coral,no absolute counts,Brute_Force_-XSS,9,0.2222222222222222,0.9782950246095367
+all,UNSW,CIC2018,coral,no absolute counts,DDOS_attack-HOIC,7945,0.0,0.25183356148417074
+all,UNSW,CIC2018,coral,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,3.189182293659906e-05,0.9162609756414797
+all,UNSW,CIC2018,coral,no absolute counts,DoS_attacks-GoldenEye,7533,0.00026549847338377806,0.417380528721019
+all,UNSW,CIC2018,coral,no absolute counts,DoS_attacks-Hulk,14879,6.720881779689495e-05,0.5820773998672009
+all,UNSW,CIC2018,coral,no absolute counts,DoS_attacks-Slowloris,1248,0.1578525641025641,0.8355039251034116
+all,UNSW,CIC2018,coral,no absolute counts,FTP-BruteForce,1,0.0,0.8553328308212944
+all,UNSW,CIC2018,coral,no absolute counts,Infilteration,6619,0.03278440852092461,0.5821350687894445
+all,UNSW,CIC2018,coral,no absolute counts,SQL_Injection,4,0.25,0.8705581245875387
+all,UNSW,CIC2018,coral,no absolute counts,SSH-Bruteforce,16640,0.0,0.5670421737574315
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",Bot,279,0.0,0.34997966959558785
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",Brute_Force_-Web,81,0.5555555555555556,0.8107275315549874
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",Brute_Force_-XSS,9,0.2222222222222222,0.5797506761845087
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,0.0,0.4925690251640361
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,3.189182293659906e-05,0.7913097109247175
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.00026549847338377806,0.36425425177015036
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,6.720881779689495e-05,0.3739248843884133
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.1578525641025641,0.8150768634757954
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",FTP-BruteForce,1,0.0,0.761327632636593
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",Infilteration,6619,0.11421664904064058,0.5821482078078175
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",SQL_Injection,4,0.25,0.6380675936032928
+all,UNSW,CIC2018,coral,"wide (flags, TTL, window)",SSH-Bruteforce,16640,0.0,0.25554780303782604
+all,ToN,UNSW,none,behaviour,Analysis,1220,0.9467213114754098,0.8210539787809394
+all,ToN,UNSW,none,behaviour,Backdoor,2706,0.5336289726533628,0.5601017509719863
+all,ToN,UNSW,none,behaviour,DoS,2728,0.6502932551319648,0.6246644243580795
+all,ToN,UNSW,none,behaviour,Exploits,19944,0.5774167669474529,0.5781077025445902
+all,ToN,UNSW,none,behaviour,Fuzzers,14535,0.687375300997592,0.6484713724141875
+all,ToN,UNSW,none,behaviour,Generic,2522,0.47779540047581287,0.5096765281457404
+all,ToN,UNSW,none,behaviour,Reconnaissance,5887,0.5501953456769152,0.5981053313053722
+all,ToN,UNSW,none,behaviour,Shellcode,719,0.5674547983310153,0.6062939663499262
+all,ToN,UNSW,none,behaviour,Worms,57,0.7543859649122807,0.6912574820073176
+all,ToN,UNSW,none,no absolute counts,Analysis,1220,0.9024590163934426,0.8492625857208312
+all,ToN,UNSW,none,no absolute counts,Backdoor,2706,0.30968218773096823,0.443002292937778
+all,ToN,UNSW,none,no absolute counts,DoS,2728,0.4633431085043988,0.5225624055647047
+all,ToN,UNSW,none,no absolute counts,Exploits,19944,0.3811171279582832,0.4746090311330773
+all,ToN,UNSW,none,no absolute counts,Fuzzers,14535,0.3953216374269006,0.5209967186009965
+all,ToN,UNSW,none,no absolute counts,Generic,2522,0.3556701030927835,0.4268592489295126
+all,ToN,UNSW,none,no absolute counts,Reconnaissance,5887,0.2638015967385765,0.4281598909858015
+all,ToN,UNSW,none,no absolute counts,Shellcode,719,0.29624478442280944,0.4125730124954494
+all,ToN,UNSW,none,no absolute counts,Worms,57,0.7894736842105263,0.673700731939643
+all,ToN,UNSW,none,"wide (flags, TTL, window)",Analysis,1220,0.22540983606557377,0.6310244580471391
+all,ToN,UNSW,none,"wide (flags, TTL, window)",Backdoor,2706,0.08647450110864745,0.2750150763492818
+all,ToN,UNSW,none,"wide (flags, TTL, window)",DoS,2728,0.12866568914956011,0.3253830185062557
+all,ToN,UNSW,none,"wide (flags, TTL, window)",Exploits,19944,0.21189330124348174,0.45731172867363606
+all,ToN,UNSW,none,"wide (flags, TTL, window)",Fuzzers,14535,0.017543859649122806,0.16919339910288564
+all,ToN,UNSW,none,"wide (flags, TTL, window)",Generic,2522,0.23632038065027755,0.4152575975409398
+all,ToN,UNSW,none,"wide (flags, TTL, window)",Reconnaissance,5887,0.06624766434516732,0.23837246916686824
+all,ToN,UNSW,none,"wide (flags, TTL, window)",Shellcode,719,0.0013908205841446453,0.1277071203187053
+all,ToN,UNSW,none,"wide (flags, TTL, window)",Worms,57,0.0,0.23389374137662935
+all,ToN,UNSW,quantile,behaviour,Analysis,1220,0.9967213114754099,0.9967390608830725
+all,ToN,UNSW,quantile,behaviour,Backdoor,2706,0.40391722099039173,0.49161744811912367
+all,ToN,UNSW,quantile,behaviour,DoS,2728,0.40542521994134895,0.5127213004944631
+all,ToN,UNSW,quantile,behaviour,Exploits,19944,0.5433714400320898,0.570752727373945
+all,ToN,UNSW,quantile,behaviour,Fuzzers,14535,0.33347093223254215,0.4897903507047818
+all,ToN,UNSW,quantile,behaviour,Generic,2522,0.43616177636796194,0.5344087216743768
+all,ToN,UNSW,quantile,behaviour,Reconnaissance,5887,0.25989468320027176,0.4221784981364084
+all,ToN,UNSW,quantile,behaviour,Shellcode,719,0.2517385257301808,0.4127072618057832
+all,ToN,UNSW,quantile,behaviour,Worms,57,0.6140350877192983,0.46524253477345245
+all,ToN,UNSW,quantile,no absolute counts,Analysis,1220,0.9967213114754099,0.9988762657214012
+all,ToN,UNSW,quantile,no absolute counts,Backdoor,2706,0.5280857354028086,0.7503890253482555
+all,ToN,UNSW,quantile,no absolute counts,DoS,2728,0.5366568914956011,0.719738209943467
+all,ToN,UNSW,quantile,no absolute counts,Exploits,19944,0.6162755716004813,0.7690395530894483
+all,ToN,UNSW,quantile,no absolute counts,Fuzzers,14535,0.49521843825249395,0.7333481536334261
+all,ToN,UNSW,quantile,no absolute counts,Generic,2522,0.6839809674861221,0.8134596577581192
+all,ToN,UNSW,quantile,no absolute counts,Reconnaissance,5887,0.41345337183624936,0.7834907047095399
+all,ToN,UNSW,quantile,no absolute counts,Shellcode,719,0.49791376912378305,0.7676148427564541
+all,ToN,UNSW,quantile,no absolute counts,Worms,57,0.24561403508771928,0.6217540871239776
+all,ToN,UNSW,quantile,"wide (flags, TTL, window)",Analysis,1220,0.9967213114754099,0.5000879711573392
+all,ToN,UNSW,quantile,"wide (flags, TTL, window)",Backdoor,2706,0.21877309682187732,0.33052539400991937
+all,ToN,UNSW,quantile,"wide (flags, TTL, window)",DoS,2728,0.34274193548387094,0.375056649934586
+all,ToN,UNSW,quantile,"wide (flags, TTL, window)",Exploits,19944,0.4258924989971921,0.3613222712863537
+all,ToN,UNSW,quantile,"wide (flags, TTL, window)",Fuzzers,14535,0.17798417612659098,0.35155822712307394
+all,ToN,UNSW,quantile,"wide (flags, TTL, window)",Generic,2522,0.5194290245836638,0.4363247514167471
+all,ToN,UNSW,quantile,"wide (flags, TTL, window)",Reconnaissance,5887,0.34992356038729405,0.4103738244067494
+all,ToN,UNSW,quantile,"wide (flags, TTL, window)",Shellcode,719,0.2906815020862309,0.36439825978474133
+all,ToN,UNSW,quantile,"wide (flags, TTL, window)",Worms,57,0.3333333333333333,0.42286058052328984
+all,ToN,UNSW,coral,behaviour,Analysis,1220,0.989344262295082,0.6187859258663634
+all,ToN,UNSW,coral,behaviour,Backdoor,2706,0.385070214338507,0.32797936880300993
+all,ToN,UNSW,coral,behaviour,DoS,2728,0.4182551319648094,0.3517248975744271
+all,ToN,UNSW,coral,behaviour,Exploits,19944,0.42178098676293624,0.35595157042371256
+all,ToN,UNSW,coral,behaviour,Fuzzers,14535,0.30196078431372547,0.29825002947593104
+all,ToN,UNSW,coral,behaviour,Generic,2522,0.38897700237906424,0.3272409697377694
+all,ToN,UNSW,coral,behaviour,Reconnaissance,5887,0.4729064039408867,0.3820946897337709
+all,ToN,UNSW,coral,behaviour,Shellcode,719,0.20305980528511822,0.271987445583519
+all,ToN,UNSW,coral,behaviour,Worms,57,0.42105263157894735,0.3355855178431458
+all,ToN,UNSW,coral,no absolute counts,Analysis,1220,0.8262295081967214,0.41510270674668837
+all,ToN,UNSW,coral,no absolute counts,Backdoor,2706,0.19364375461936437,0.22682693470403367
+all,ToN,UNSW,coral,no absolute counts,DoS,2728,0.2401026392961877,0.23624867687138076
+all,ToN,UNSW,coral,no absolute counts,Exploits,19944,0.2899117529081428,0.25430969469554876
+all,ToN,UNSW,coral,no absolute counts,Fuzzers,14535,0.12473340213278294,0.2020378546408472
+all,ToN,UNSW,coral,no absolute counts,Generic,2522,0.22918318794607453,0.21729021278511118
+all,ToN,UNSW,coral,no absolute counts,Reconnaissance,5887,0.21420078138270765,0.24584865790884308
+all,ToN,UNSW,coral,no absolute counts,Shellcode,719,0.048678720445062586,0.19790724209057697
+all,ToN,UNSW,coral,no absolute counts,Worms,57,0.05263157894736842,0.20942586888679157
+all,ToN,UNSW,coral,"wide (flags, TTL, window)",Analysis,1220,0.8852459016393442,0.31384914352687565
+all,ToN,UNSW,coral,"wide (flags, TTL, window)",Backdoor,2706,0.09090909090909091,0.07064172019549164
+all,ToN,UNSW,coral,"wide (flags, TTL, window)",DoS,2728,0.17521994134897362,0.10341798407529251
+all,ToN,UNSW,coral,"wide (flags, TTL, window)",Exploits,19944,0.231397914159647,0.14205843813302008
+all,ToN,UNSW,coral,"wide (flags, TTL, window)",Fuzzers,14535,0.027313381492948055,0.02053708367988904
+all,ToN,UNSW,coral,"wide (flags, TTL, window)",Generic,2522,0.2212529738302934,0.10633960516362025
+all,ToN,UNSW,coral,"wide (flags, TTL, window)",Reconnaissance,5887,0.0754204178698828,0.05470253789711836
+all,ToN,UNSW,coral,"wide (flags, TTL, window)",Shellcode,719,0.0,0.03890173780594286
+all,ToN,UNSW,coral,"wide (flags, TTL, window)",Worms,57,0.05263157894736842,0.016423690018956667
+all,ToN,CIC2018,none,behaviour,Bot,279,0.910394265232975,0.7484765761130466
+all,ToN,CIC2018,none,behaviour,Brute_Force_-Web,81,0.19753086419753085,0.41240336518573883
+all,ToN,CIC2018,none,behaviour,Brute_Force_-XSS,9,0.0,0.09196109319652217
+all,ToN,CIC2018,none,behaviour,DDOS_attack-HOIC,7945,1.0,0.9662361497857705
+all,ToN,CIC2018,none,behaviour,DDoS_attacks-LOIC-HTTP,31356,0.9999362163541268,0.8332598538509193
+all,ToN,CIC2018,none,behaviour,DoS_attacks-GoldenEye,7533,0.9203504579848666,0.9025243405802479
+all,ToN,CIC2018,none,behaviour,DoS_attacks-Hulk,14879,0.10377041467840581,0.3832806840787489
+all,ToN,CIC2018,none,behaviour,DoS_attacks-Slowloris,1248,0.08092948717948718,0.5841469788217961
+all,ToN,CIC2018,none,behaviour,FTP-BruteForce,1,0.0,0.2836560565732641
+all,ToN,CIC2018,none,behaviour,Infilteration,6619,0.09306541773681826,0.32086277766563387
+all,ToN,CIC2018,none,behaviour,SQL_Injection,4,0.25,0.317683914714741
+all,ToN,CIC2018,none,behaviour,SSH-Bruteforce,16640,1.0,0.8810693654085842
+all,ToN,CIC2018,none,no absolute counts,Bot,279,0.010752688172043012,0.24612891914633309
+all,ToN,CIC2018,none,no absolute counts,Brute_Force_-Web,81,0.20987654320987653,0.38290236767192626
+all,ToN,CIC2018,none,no absolute counts,Brute_Force_-XSS,9,0.0,0.2552882789240682
+all,ToN,CIC2018,none,no absolute counts,DDOS_attack-HOIC,7945,0.9998741346758968,0.9331740784607341
+all,ToN,CIC2018,none,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,0.9998724327082537,0.8537255672365287
+all,ToN,CIC2018,none,no absolute counts,DoS_attacks-GoldenEye,7533,0.8651267755210408,0.7658965193088025
+all,ToN,CIC2018,none,no absolute counts,DoS_attacks-Hulk,14879,0.9999327911822031,0.8422302228858133
+all,ToN,CIC2018,none,no absolute counts,DoS_attacks-Slowloris,1248,0.13782051282051283,0.4139578377683269
+all,ToN,CIC2018,none,no absolute counts,FTP-BruteForce,1,0.0,0.22155307496708132
+all,ToN,CIC2018,none,no absolute counts,Infilteration,6619,0.15833207433147,0.3099032277363355
+all,ToN,CIC2018,none,no absolute counts,SQL_Injection,4,0.25,0.41583679201318624
+all,ToN,CIC2018,none,no absolute counts,SSH-Bruteforce,16640,1.0,0.9146939881636702
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",Bot,279,0.0,0.26094069859083296
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",Brute_Force_-Web,81,0.5185185185185185,0.7065221382732885
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",Brute_Force_-XSS,9,0.0,0.4611074447888355
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,0.0,0.02833474497987736
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,0.0,0.43170433876293873
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.09106597637063586,0.5340300980697229
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,0.031991397271322,0.44639653922080386
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.9943910256410257,0.7351462383914387
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",FTP-BruteForce,1,0.0,0.5611474789429732
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",Infilteration,6619,0.17555521982172534,0.3443358922849904
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",SQL_Injection,4,0.0,0.48161009236004465
+all,ToN,CIC2018,none,"wide (flags, TTL, window)",SSH-Bruteforce,16640,1.0,0.5885474148535914
+all,ToN,CIC2018,quantile,behaviour,Bot,279,0.08243727598566308,0.2505378328305691
+all,ToN,CIC2018,quantile,behaviour,Brute_Force_-Web,81,0.1728395061728395,0.26420339813823424
+all,ToN,CIC2018,quantile,behaviour,Brute_Force_-XSS,9,0.0,0.09794692902938376
+all,ToN,CIC2018,quantile,behaviour,DDOS_attack-HOIC,7945,0.9998741346758968,0.6780319570659207
+all,ToN,CIC2018,quantile,behaviour,DDoS_attacks-LOIC-HTTP,31356,0.6070927414210996,0.3381603951453269
+all,ToN,CIC2018,quantile,behaviour,DoS_attacks-GoldenEye,7533,0.8198592858091066,0.575812206285899
+all,ToN,CIC2018,quantile,behaviour,DoS_attacks-Hulk,14879,0.22528395725519187,0.28035956839651544
+all,ToN,CIC2018,quantile,behaviour,DoS_attacks-Slowloris,1248,0.014423076923076924,0.09603728600132662
+all,ToN,CIC2018,quantile,behaviour,FTP-BruteForce,1,0.0,0.212581358471446
+all,ToN,CIC2018,quantile,behaviour,Infilteration,6619,0.3453693911466989,0.2989940763139146
+all,ToN,CIC2018,quantile,behaviour,SQL_Injection,4,0.25,0.30181138909131855
+all,ToN,CIC2018,quantile,behaviour,SSH-Bruteforce,16640,1.0,0.9570092515337905
+all,ToN,CIC2018,quantile,no absolute counts,Bot,279,0.0,0.1737789058907368
+all,ToN,CIC2018,quantile,no absolute counts,Brute_Force_-Web,81,0.12345679012345678,0.26450878019507923
+all,ToN,CIC2018,quantile,no absolute counts,Brute_Force_-XSS,9,0.0,0.1913808064727443
+all,ToN,CIC2018,quantile,no absolute counts,DDOS_attack-HOIC,7945,1.0,0.496795070821541
+all,ToN,CIC2018,quantile,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,0.9886146192116342,0.43751158202819423
+all,ToN,CIC2018,quantile,no absolute counts,DoS_attacks-GoldenEye,7533,0.8482676224611708,0.5936435105212807
+all,ToN,CIC2018,quantile,no absolute counts,DoS_attacks-Hulk,14879,0.9836682572753546,0.6077425230343652
+all,ToN,CIC2018,quantile,no absolute counts,DoS_attacks-Slowloris,1248,0.004807692307692308,0.04523639315427995
+all,ToN,CIC2018,quantile,no absolute counts,FTP-BruteForce,1,0.0,0.202915299614984
+all,ToN,CIC2018,quantile,no absolute counts,Infilteration,6619,0.3455204713702976,0.3183269353064325
+all,ToN,CIC2018,quantile,no absolute counts,SQL_Injection,4,0.25,0.3564771664576342
+all,ToN,CIC2018,quantile,no absolute counts,SSH-Bruteforce,16640,0.9983173076923076,0.4488888796746311
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",Bot,279,0.0,0.3028306025818419
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",Brute_Force_-Web,81,0.5555555555555556,0.5824942783942181
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",Brute_Force_-XSS,9,0.6666666666666666,0.5979130459562203
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,0.0,0.20152020681473332
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,0.9965875749457839,0.7382216038910983
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.8284879861940794,0.6806829932471126
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,0.998723032461859,0.8898192061276078
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.9615384615384616,0.7322919491091477
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",FTP-BruteForce,1,0.0,0.5084478320567234
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",Infilteration,6619,0.20713098655386009,0.34516652849742685
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",SQL_Injection,4,0.75,0.6917229386320205
+all,ToN,CIC2018,quantile,"wide (flags, TTL, window)",SSH-Bruteforce,16640,1.0,0.9309192449429814
+all,ToN,CIC2018,coral,behaviour,Bot,279,0.02867383512544803,0.2152024650106683
+all,ToN,CIC2018,coral,behaviour,Brute_Force_-Web,81,0.2345679012345679,0.2846342444848879
+all,ToN,CIC2018,coral,behaviour,Brute_Force_-XSS,9,0.0,0.1900351271901063
+all,ToN,CIC2018,coral,behaviour,DDOS_attack-HOIC,7945,0.9940843297671491,0.5148267764930033
+all,ToN,CIC2018,coral,behaviour,DDoS_attacks-LOIC-HTTP,31356,0.9992983798953948,0.5743682317374366
+all,ToN,CIC2018,coral,behaviour,DoS_attacks-GoldenEye,7533,0.8984468339307049,0.49366956460433875
+all,ToN,CIC2018,coral,behaviour,DoS_attacks-Hulk,14879,0.9745278580549768,0.42453341979291204
+all,ToN,CIC2018,coral,behaviour,DoS_attacks-Slowloris,1248,0.0673076923076923,0.2663074331623301
+all,ToN,CIC2018,coral,behaviour,FTP-BruteForce,1,0.0,0.1707315928901844
+all,ToN,CIC2018,coral,behaviour,Infilteration,6619,0.4005136727602357,0.30067411994635684
+all,ToN,CIC2018,coral,behaviour,SQL_Injection,4,0.25,0.24440088731949444
+all,ToN,CIC2018,coral,behaviour,SSH-Bruteforce,16640,1.0,0.5505444313775743
+all,ToN,CIC2018,coral,no absolute counts,Bot,279,0.05734767025089606,0.17222403156151375
+all,ToN,CIC2018,coral,no absolute counts,Brute_Force_-Web,81,0.3333333333333333,0.3597688684022755
+all,ToN,CIC2018,coral,no absolute counts,Brute_Force_-XSS,9,0.0,0.23295177517764287
+all,ToN,CIC2018,coral,no absolute counts,DDOS_attack-HOIC,7945,0.9974826935179358,0.9227114840773645
+all,ToN,CIC2018,coral,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,0.6838563592294935,0.4194918026997992
+all,ToN,CIC2018,coral,no absolute counts,DoS_attacks-GoldenEye,7533,0.9215452011150936,0.7668455920456874
+all,ToN,CIC2018,coral,no absolute counts,DoS_attacks-Hulk,14879,0.9792324753007594,0.5792355622309565
+all,ToN,CIC2018,coral,no absolute counts,DoS_attacks-Slowloris,1248,0.2283653846153846,0.24709696307518922
+all,ToN,CIC2018,coral,no absolute counts,FTP-BruteForce,1,0.0,0.15388597146940985
+all,ToN,CIC2018,coral,no absolute counts,Infilteration,6619,0.4236289469708415,0.34002500886212456
+all,ToN,CIC2018,coral,no absolute counts,SQL_Injection,4,0.25,0.36313343102083967
+all,ToN,CIC2018,coral,no absolute counts,SSH-Bruteforce,16640,1.0,0.7207601789607438
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",Bot,279,1.0,0.4127150791827522
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",Brute_Force_-Web,81,0.691358024691358,0.291327319483632
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",Brute_Force_-XSS,9,0.6666666666666666,0.20661819823370142
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,1.0,0.5307467553300462
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,0.9999681081770634,0.4804501913970806
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.9660161954068764,0.3606579223347283
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,1.0,0.52429073556192
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.9967948717948718,0.3789336343272983
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",FTP-BruteForce,1,0.0,0.16872832134915094
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",Infilteration,6619,0.49267260915546157,0.2834540102175371
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",SQL_Injection,4,0.75,0.37927395872103387
+all,ToN,CIC2018,coral,"wide (flags, TTL, window)",SSH-Bruteforce,16640,1.0,0.3202540515108322
+all,CIC2018,UNSW,none,behaviour,Analysis,1220,0.0,0.0024319744998850287
+all,CIC2018,UNSW,none,behaviour,Backdoor,2706,0.10125646711012565,0.14151992834722535
+all,CIC2018,UNSW,none,behaviour,DoS,2728,0.09017595307917889,0.10916799772983557
+all,CIC2018,UNSW,none,behaviour,Exploits,19944,0.08719414360208584,0.13052497246364617
+all,CIC2018,UNSW,none,behaviour,Fuzzers,14535,0.08716890264877881,0.10881678587009684
+all,CIC2018,UNSW,none,behaviour,Generic,2522,0.07573354480570975,0.11271474924830174
+all,CIC2018,UNSW,none,behaviour,Reconnaissance,5887,0.01834550704943095,0.049772078241824474
+all,CIC2018,UNSW,none,behaviour,Shellcode,719,0.030598052851182198,0.10174522200777134
+all,CIC2018,UNSW,none,behaviour,Worms,57,0.017543859649122806,0.0669493307066299
+all,CIC2018,UNSW,none,no absolute counts,Analysis,1220,0.0,0.08054302480652441
+all,CIC2018,UNSW,none,no absolute counts,Backdoor,2706,0.11419068736141907,0.23855495079577085
+all,CIC2018,UNSW,none,no absolute counts,DoS,2728,0.09347507331378299,0.19896386929936738
+all,CIC2018,UNSW,none,no absolute counts,Exploits,19944,0.08930004011231447,0.21466782671569
+all,CIC2018,UNSW,none,no absolute counts,Fuzzers,14535,0.09191606467148263,0.2147184249510667
+all,CIC2018,UNSW,none,no absolute counts,Generic,2522,0.08921490880253767,0.17573431024539593
+all,CIC2018,UNSW,none,no absolute counts,Reconnaissance,5887,0.02140309155766944,0.16038341797012287
+all,CIC2018,UNSW,none,no absolute counts,Shellcode,719,0.06536856745479833,0.26563039173980363
+all,CIC2018,UNSW,none,no absolute counts,Worms,57,0.017543859649122806,0.18518770133295057
+all,CIC2018,UNSW,none,"wide (flags, TTL, window)",Analysis,1220,0.07131147540983607,0.11414871225641994
+all,CIC2018,UNSW,none,"wide (flags, TTL, window)",Backdoor,2706,0.05321507760532151,0.10707972684460562
+all,CIC2018,UNSW,none,"wide (flags, TTL, window)",DoS,2728,0.07331378299120235,0.10304309318465182
+all,CIC2018,UNSW,none,"wide (flags, TTL, window)",Exploits,19944,0.08579021259526674,0.16213336373825052
+all,CIC2018,UNSW,none,"wide (flags, TTL, window)",Fuzzers,14535,0.02153422772617819,0.04716763663555808
+all,CIC2018,UNSW,none,"wide (flags, TTL, window)",Generic,2522,0.0654242664551943,0.12607168314577208
+all,CIC2018,UNSW,none,"wide (flags, TTL, window)",Reconnaissance,5887,0.008153558688635978,0.03986223470960947
+all,CIC2018,UNSW,none,"wide (flags, TTL, window)",Shellcode,719,0.0013908205841446453,0.053349831699425344
+all,CIC2018,UNSW,none,"wide (flags, TTL, window)",Worms,57,0.017543859649122806,0.020665663536617564
+all,CIC2018,UNSW,quantile,behaviour,Analysis,1220,0.000819672131147541,0.09985896690344964
+all,CIC2018,UNSW,quantile,behaviour,Backdoor,2706,0.1008869179600887,0.15087171126937438
+all,CIC2018,UNSW,quantile,behaviour,DoS,2728,0.07551319648093842,0.14073637396146935
+all,CIC2018,UNSW,quantile,behaviour,Exploits,19944,0.09712194143602086,0.1616838056660522
+all,CIC2018,UNSW,quantile,behaviour,Fuzzers,14535,0.07292741658066736,0.12786386080957166
+all,CIC2018,UNSW,quantile,behaviour,Generic,2522,0.05194290245836638,0.1457823211176946
+all,CIC2018,UNSW,quantile,behaviour,Reconnaissance,5887,0.060981824358756584,0.1406102790607085
+all,CIC2018,UNSW,quantile,behaviour,Shellcode,719,0.11126564673157163,0.18067535426478526
+all,CIC2018,UNSW,quantile,behaviour,Worms,57,0.05263157894736842,0.19881190599315818
+all,CIC2018,UNSW,quantile,no absolute counts,Analysis,1220,0.0,0.03884474505943773
+all,CIC2018,UNSW,quantile,no absolute counts,Backdoor,2706,0.14301552106430154,0.10494816089249881
+all,CIC2018,UNSW,quantile,no absolute counts,DoS,2728,0.11766862170087977,0.09836923983157778
+all,CIC2018,UNSW,quantile,no absolute counts,Exploits,19944,0.15874448455675894,0.10373746703473244
+all,CIC2018,UNSW,quantile,no absolute counts,Fuzzers,14535,0.08386652906776745,0.09736874321821799
+all,CIC2018,UNSW,quantile,no absolute counts,Generic,2522,0.09238699444885012,0.08281650450272675
+all,CIC2018,UNSW,quantile,no absolute counts,Reconnaissance,5887,0.06896551724137931,0.08051824564085168
+all,CIC2018,UNSW,quantile,no absolute counts,Shellcode,719,0.1627260083449235,0.09639737718524997
+all,CIC2018,UNSW,quantile,no absolute counts,Worms,57,0.15789473684210525,0.099774549289225
+all,CIC2018,UNSW,quantile,"wide (flags, TTL, window)",Analysis,1220,0.0,0.3064099361524109
+all,CIC2018,UNSW,quantile,"wide (flags, TTL, window)",Backdoor,2706,0.18403547671840353,0.33098004955140137
+all,CIC2018,UNSW,quantile,"wide (flags, TTL, window)",DoS,2728,0.14002932551319647,0.3090672396255933
+all,CIC2018,UNSW,quantile,"wide (flags, TTL, window)",Exploits,19944,0.2461391897312475,0.4077298622333132
+all,CIC2018,UNSW,quantile,"wide (flags, TTL, window)",Fuzzers,14535,0.08737530099759203,0.2575951817465941
+all,CIC2018,UNSW,quantile,"wide (flags, TTL, window)",Generic,2522,0.16613798572561458,0.34863530292906814
+all,CIC2018,UNSW,quantile,"wide (flags, TTL, window)",Reconnaissance,5887,0.024120944453881434,0.26005747196712437
+all,CIC2018,UNSW,quantile,"wide (flags, TTL, window)",Shellcode,719,0.05285118219749652,0.2625481630314246
+all,CIC2018,UNSW,quantile,"wide (flags, TTL, window)",Worms,57,0.10526315789473684,0.30611267905826856
+all,CIC2018,UNSW,coral,behaviour,Analysis,1220,0.1540983606557377,0.5259385871941731
+all,CIC2018,UNSW,coral,behaviour,Backdoor,2706,0.7398373983739838,0.7442317213557872
+all,CIC2018,UNSW,coral,behaviour,DoS,2728,0.7628299120234604,0.7517871796642744
+all,CIC2018,UNSW,coral,behaviour,Exploits,19944,0.7800340954673085,0.7692874258327698
+all,CIC2018,UNSW,coral,behaviour,Fuzzers,14535,0.6573787409700722,0.7037143910698004
+all,CIC2018,UNSW,coral,behaviour,Generic,2522,0.8199841395717684,0.8147371091404814
+all,CIC2018,UNSW,coral,behaviour,Reconnaissance,5887,0.8715814506539834,0.7771951941300037
+all,CIC2018,UNSW,coral,behaviour,Shellcode,719,0.8831710709318498,0.7753937350921284
+all,CIC2018,UNSW,coral,behaviour,Worms,57,0.9649122807017544,0.8806897697806086
+all,CIC2018,UNSW,coral,no absolute counts,Analysis,1220,0.6139344262295082,0.7808290201404594
+all,CIC2018,UNSW,coral,no absolute counts,Backdoor,2706,0.8381374722838137,0.8641830711327673
+all,CIC2018,UNSW,coral,no absolute counts,DoS,2728,0.8610703812316716,0.8664951960337824
+all,CIC2018,UNSW,coral,no absolute counts,Exploits,19944,0.8719414360208584,0.8711903004326088
+all,CIC2018,UNSW,coral,no absolute counts,Fuzzers,14535,0.7386308909528724,0.8300018295164673
+all,CIC2018,UNSW,coral,no absolute counts,Generic,2522,0.8076923076923077,0.8621850928069067
+all,CIC2018,UNSW,coral,no absolute counts,Reconnaissance,5887,0.9308646169526075,0.8642585404155594
+all,CIC2018,UNSW,coral,no absolute counts,Shellcode,719,0.9082058414464534,0.8728444706065881
+all,CIC2018,UNSW,coral,no absolute counts,Worms,57,1.0,0.8979412143494281
+all,CIC2018,UNSW,coral,"wide (flags, TTL, window)",Analysis,1220,0.051639344262295085,0.6493535057684491
+all,CIC2018,UNSW,coral,"wide (flags, TTL, window)",Backdoor,2706,0.4759793052475979,0.8403210957152644
+all,CIC2018,UNSW,coral,"wide (flags, TTL, window)",DoS,2728,0.4776392961876833,0.827098259062422
+all,CIC2018,UNSW,coral,"wide (flags, TTL, window)",Exploits,19944,0.6187324508624148,0.8515575730276156
+all,CIC2018,UNSW,coral,"wide (flags, TTL, window)",Fuzzers,14535,0.2585483316133471,0.8071391163776795
+all,CIC2018,UNSW,coral,"wide (flags, TTL, window)",Generic,2522,0.6165741475019826,0.8574529266447732
+all,CIC2018,UNSW,coral,"wide (flags, TTL, window)",Reconnaissance,5887,0.36504161712247324,0.8170139021627881
+all,CIC2018,UNSW,coral,"wide (flags, TTL, window)",Shellcode,719,0.4047287899860918,0.8336645014770708
+all,CIC2018,UNSW,coral,"wide (flags, TTL, window)",Worms,57,0.3508771929824561,0.8249842324632533
+all,CIC2018,ToN,none,behaviour,Backdoor,2252,0.0004440497335701599,0.2395024575727412
+all,CIC2018,ToN,none,behaviour,ddos,25753,0.2977905486739409,0.6995873591921538
+all,CIC2018,ToN,none,behaviour,dos,2916,0.9293552812071331,0.8694068866872393
+all,CIC2018,ToN,none,behaviour,injection,15002,0.25456605785895214,0.6718972559203009
+all,CIC2018,ToN,none,behaviour,mitm,32,0.09375,0.6232445343594967
+all,CIC2018,ToN,none,behaviour,password,46836,0.03847467759842856,0.4784786443361502
+all,CIC2018,ToN,none,behaviour,ransomware,144,0.1527777777777778,0.679673696388936
+all,CIC2018,ToN,none,behaviour,scanning,2677,0.23571161748225625,0.5933585048785371
+all,CIC2018,ToN,none,behaviour,xss,87453,0.5549266463128766,0.7790055683038495
+all,CIC2018,ToN,none,no absolute counts,Backdoor,2252,0.0026642984014209592,0.24772854317478818
+all,CIC2018,ToN,none,no absolute counts,ddos,25753,0.3608899933988273,0.7387557736034498
+all,CIC2018,ToN,none,no absolute counts,dos,2916,0.3614540466392318,0.7439840473686644
+all,CIC2018,ToN,none,no absolute counts,injection,15002,0.23336888414878015,0.6432327732216455
+all,CIC2018,ToN,none,no absolute counts,mitm,32,0.28125,0.6707667812612
+all,CIC2018,ToN,none,no absolute counts,password,46836,0.053014774959432916,0.34918157114876064
+all,CIC2018,ToN,none,no absolute counts,ransomware,144,0.11805555555555555,0.540863077085914
+all,CIC2018,ToN,none,no absolute counts,scanning,2677,0.3593574897273067,0.6339202531788549
+all,CIC2018,ToN,none,no absolute counts,xss,87453,0.47169336672269674,0.7069643468892141
+all,CIC2018,ToN,none,"wide (flags, TTL, window)",Backdoor,2252,0.0017761989342806395,0.29129923442150435
+all,CIC2018,ToN,none,"wide (flags, TTL, window)",ddos,25753,0.06364307071020851,0.6592711750472574
+all,CIC2018,ToN,none,"wide (flags, TTL, window)",dos,2916,0.928326474622771,0.9115487680804644
+all,CIC2018,ToN,none,"wide (flags, TTL, window)",injection,15002,0.7327689641381149,0.8585201278239014
+all,CIC2018,ToN,none,"wide (flags, TTL, window)",mitm,32,0.0625,0.6679537919944164
+all,CIC2018,ToN,none,"wide (flags, TTL, window)",password,46836,0.07581774703219746,0.5096587482686512
+all,CIC2018,ToN,none,"wide (flags, TTL, window)",ransomware,144,0.10416666666666667,0.7022150751283228
+all,CIC2018,ToN,none,"wide (flags, TTL, window)",scanning,2677,0.026895778856929398,0.4890926134433755
+all,CIC2018,ToN,none,"wide (flags, TTL, window)",xss,87453,0.6115627822944896,0.8458649600101056
+all,CIC2018,ToN,quantile,behaviour,Backdoor,2252,0.004884547069271759,0.38660311846160994
+all,CIC2018,ToN,quantile,behaviour,ddos,25753,0.8999339882732109,0.7717019359390033
+all,CIC2018,ToN,quantile,behaviour,dos,2916,0.23525377229080932,0.6013256460608298
+all,CIC2018,ToN,quantile,behaviour,injection,15002,0.5332622317024397,0.6282817639669436
+all,CIC2018,ToN,quantile,behaviour,mitm,32,0.875,0.7986413709844755
+all,CIC2018,ToN,quantile,behaviour,password,46836,0.14856093603211204,0.35680091303805983
+all,CIC2018,ToN,quantile,behaviour,ransomware,144,0.4305555555555556,0.6085531693483988
+all,CIC2018,ToN,quantile,behaviour,scanning,2677,0.37392603660814344,0.6411290769517624
+all,CIC2018,ToN,quantile,behaviour,xss,87453,0.6385372714486639,0.6382691227471854
+all,CIC2018,ToN,quantile,no absolute counts,Backdoor,2252,0.004884547069271759,0.21417625654272476
+all,CIC2018,ToN,quantile,no absolute counts,ddos,25753,0.9377159942530967,0.8521492541285606
+all,CIC2018,ToN,quantile,no absolute counts,dos,2916,0.0720164609053498,0.5865772965540949
+all,CIC2018,ToN,quantile,no absolute counts,injection,15002,0.4541394480735902,0.6128970717560723
+all,CIC2018,ToN,quantile,no absolute counts,mitm,32,0.90625,0.8209030096391452
+all,CIC2018,ToN,quantile,no absolute counts,password,46836,0.13453326500982152,0.3452130776293071
+all,CIC2018,ToN,quantile,no absolute counts,ransomware,144,0.1527777777777778,0.5140591825485153
+all,CIC2018,ToN,quantile,no absolute counts,scanning,2677,0.3709376167351513,0.6415653462013015
+all,CIC2018,ToN,quantile,no absolute counts,xss,87453,0.6465187014739345,0.7045753605921524
+all,CIC2018,ToN,quantile,"wide (flags, TTL, window)",Backdoor,2252,0.003108348134991119,0.4496007949925081
+all,CIC2018,ToN,quantile,"wide (flags, TTL, window)",ddos,25753,0.20475284432881605,0.6813797074157574
+all,CIC2018,ToN,quantile,"wide (flags, TTL, window)",dos,2916,0.16598079561042525,0.6449127173998292
+all,CIC2018,ToN,quantile,"wide (flags, TTL, window)",injection,15002,0.10505265964538062,0.45722454468454315
+all,CIC2018,ToN,quantile,"wide (flags, TTL, window)",mitm,32,0.53125,0.8091102064587932
+all,CIC2018,ToN,quantile,"wide (flags, TTL, window)",password,46836,0.00800666154240328,0.2141214936963407
+all,CIC2018,ToN,quantile,"wide (flags, TTL, window)",ransomware,144,0.1388888888888889,0.6103485230037915
+all,CIC2018,ToN,quantile,"wide (flags, TTL, window)",scanning,2677,0.20246544639521852,0.5591373613146855
+all,CIC2018,ToN,quantile,"wide (flags, TTL, window)",xss,87453,0.18023395423827657,0.4274677702015689
+all,CIC2018,ToN,coral,behaviour,Backdoor,2252,0.0741563055062167,0.42097890279199923
+all,CIC2018,ToN,coral,behaviour,ddos,25753,0.03774317555236283,0.2184206054644794
+all,CIC2018,ToN,coral,behaviour,dos,2916,0.1728395061728395,0.42406736388933974
+all,CIC2018,ToN,coral,behaviour,injection,15002,0.22863618184242102,0.34388086719254396
+all,CIC2018,ToN,coral,behaviour,mitm,32,0.59375,0.6611117202384321
+all,CIC2018,ToN,coral,behaviour,password,46836,0.12849090443248784,0.3762042682695247
+all,CIC2018,ToN,coral,behaviour,ransomware,144,0.06944444444444445,0.27561504830052164
+all,CIC2018,ToN,coral,behaviour,scanning,2677,0.4295853567426223,0.5937161852752394
+all,CIC2018,ToN,coral,behaviour,xss,87453,0.2961247755937475,0.4484436940245734
+all,CIC2018,ToN,coral,no absolute counts,Backdoor,2252,0.9893428063943162,0.8013020843541878
+all,CIC2018,ToN,coral,no absolute counts,ddos,25753,0.1757076845416068,0.2971414016079439
+all,CIC2018,ToN,coral,no absolute counts,dos,2916,0.3837448559670782,0.5492832826650668
+all,CIC2018,ToN,coral,no absolute counts,injection,15002,0.2336355152646314,0.35843893969778434
+all,CIC2018,ToN,coral,no absolute counts,mitm,32,0.6875,0.706543677965782
+all,CIC2018,ToN,coral,no absolute counts,password,46836,0.1840678110854898,0.3763274586606095
+all,CIC2018,ToN,coral,no absolute counts,ransomware,144,0.1597222222222222,0.26638454247071475
+all,CIC2018,ToN,coral,no absolute counts,scanning,2677,0.4247291744490101,0.5608201161476022
+all,CIC2018,ToN,coral,no absolute counts,xss,87453,0.2375447383165815,0.35061199893573924
+all,CIC2018,ToN,coral,"wide (flags, TTL, window)",Backdoor,2252,0.003552397868561279,0.2932264863214791
+all,CIC2018,ToN,coral,"wide (flags, TTL, window)",ddos,25753,0.052226925018444455,0.2536371579127543
+all,CIC2018,ToN,coral,"wide (flags, TTL, window)",dos,2916,0.9897119341563786,0.8519111554463296
+all,CIC2018,ToN,coral,"wide (flags, TTL, window)",injection,15002,0.49286761765097986,0.5935135163524862
+all,CIC2018,ToN,coral,"wide (flags, TTL, window)",mitm,32,0.53125,0.6944443461981024
+all,CIC2018,ToN,coral,"wide (flags, TTL, window)",password,46836,0.5921513365787001,0.5746900473753598
+all,CIC2018,ToN,coral,"wide (flags, TTL, window)",ransomware,144,0.06944444444444445,0.18262927384687613
+all,CIC2018,ToN,coral,"wide (flags, TTL, window)",scanning,2677,0.09973851326111319,0.4807517064290818
+all,CIC2018,ToN,coral,"wide (flags, TTL, window)",xss,87453,0.2737584759813843,0.40141928760602896
+shared,UNSW,ToN,none,behaviour,Backdoor,2252,0.9946714031971581,0.777693008809562
+shared,UNSW,ToN,none,behaviour,ddos,25753,0.032889372111986954,0.10531245493181289
+shared,UNSW,ToN,none,behaviour,dos,2916,0.9499314128943759,0.6139654527888792
+shared,UNSW,ToN,none,behaviour,scanning,2677,0.6230855435188644,0.4418552342878296
+shared,UNSW,ToN,none,no absolute counts,Backdoor,2252,0.9946714031971581,0.6632239515030314
+shared,UNSW,ToN,none,no absolute counts,ddos,25753,0.033122354677124995,0.07704849042166198
+shared,UNSW,ToN,none,no absolute counts,dos,2916,0.9506172839506173,0.3700033252707614
+shared,UNSW,ToN,none,no absolute counts,scanning,2677,0.6227119910347404,0.3940450436523273
+shared,UNSW,ToN,none,"wide (flags, TTL, window)",Backdoor,2252,0.007548845470692718,0.4197900124635135
+shared,UNSW,ToN,none,"wide (flags, TTL, window)",ddos,25753,0.9185337630567313,0.754890063447855
+shared,UNSW,ToN,none,"wide (flags, TTL, window)",dos,2916,0.0075445816186556925,0.37492923028921893
+shared,UNSW,ToN,none,"wide (flags, TTL, window)",scanning,2677,0.7609264101606276,0.7786684831522037
+shared,UNSW,ToN,quantile,behaviour,Backdoor,2252,0.9955595026642984,0.9724076694348809
+shared,UNSW,ToN,quantile,behaviour,ddos,25753,0.037044227856948705,0.11266854186728693
+shared,UNSW,ToN,quantile,behaviour,dos,2916,0.9300411522633745,0.5742564969117366
+shared,UNSW,ToN,quantile,behaviour,scanning,2677,0.6301830407172208,0.38322284140861806
+shared,UNSW,ToN,quantile,no absolute counts,Backdoor,2252,0.9946714031971581,0.9129279476641659
+shared,UNSW,ToN,quantile,no absolute counts,ddos,25753,0.033161185104648,0.13830283720851272
+shared,UNSW,ToN,quantile,no absolute counts,dos,2916,0.9300411522633745,0.5947067730132297
+shared,UNSW,ToN,quantile,no absolute counts,scanning,2677,0.6208442286141203,0.35158332369205314
+shared,UNSW,ToN,quantile,"wide (flags, TTL, window)",Backdoor,2252,0.9928952042628775,0.9906408894175526
+shared,UNSW,ToN,quantile,"wide (flags, TTL, window)",ddos,25753,0.9714984661981129,0.4384092971691226
+shared,UNSW,ToN,quantile,"wide (flags, TTL, window)",dos,2916,0.9410150891632373,0.6872955424889053
+shared,UNSW,ToN,quantile,"wide (flags, TTL, window)",scanning,2677,0.7717594322002241,0.5044782398825343
+shared,UNSW,ToN,coral,behaviour,Backdoor,2252,0.0,0.609700089816771
+shared,UNSW,ToN,coral,behaviour,ddos,25753,0.028851007649594224,0.1660730543708044
+shared,UNSW,ToN,coral,behaviour,dos,2916,0.4790809327846365,0.6323597038353587
+shared,UNSW,ToN,coral,behaviour,scanning,2677,0.010833022039596563,0.3954821633991271
+shared,UNSW,ToN,coral,no absolute counts,Backdoor,2252,0.0,0.6419631806186887
+shared,UNSW,ToN,coral,no absolute counts,ddos,25753,0.029083990214732264,0.2192890294848285
+shared,UNSW,ToN,coral,no absolute counts,dos,2916,0.4790809327846365,0.6600079387572637
+shared,UNSW,ToN,coral,no absolute counts,scanning,2677,0.010459469555472544,0.37157977919597546
+shared,UNSW,ToN,coral,"wide (flags, TTL, window)",Backdoor,2252,0.9911190053285968,0.7972964396380002
+shared,UNSW,ToN,coral,"wide (flags, TTL, window)",ddos,25753,0.034792063060614296,0.1379844548774578
+shared,UNSW,ToN,coral,"wide (flags, TTL, window)",dos,2916,0.9262688614540466,0.7707205044847945
+shared,UNSW,ToN,coral,"wide (flags, TTL, window)",scanning,2677,0.3302203959656332,0.3139321991354578
+shared,UNSW,CIC2018,none,behaviour,DDOS_attack-HOIC,7945,0.9336689741976085,0.5133745886887378
+shared,UNSW,CIC2018,none,behaviour,DDoS_attacks-LOIC-HTTP,31356,0.9999362163541268,0.6752536506866273
+shared,UNSW,CIC2018,none,behaviour,DoS_attacks-GoldenEye,7533,0.03159431833266959,0.018177808611696128
+shared,UNSW,CIC2018,none,behaviour,DoS_attacks-Hulk,14879,0.0705020498689428,0.044399008104071075
+shared,UNSW,CIC2018,none,behaviour,DoS_attacks-Slowloris,1248,0.0625,0.06710039468868194
+shared,UNSW,CIC2018,none,no absolute counts,DDOS_attack-HOIC,7945,1.0,0.5690905659617733
+shared,UNSW,CIC2018,none,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,0.9988200025513458,0.8692473907588865
+shared,UNSW,CIC2018,none,no absolute counts,DoS_attacks-GoldenEye,7533,0.03159431833266959,0.012984409662207137
+shared,UNSW,CIC2018,none,no absolute counts,DoS_attacks-Hulk,14879,0.0705020498689428,0.036970850511782706
+shared,UNSW,CIC2018,none,no absolute counts,DoS_attacks-Slowloris,1248,0.047275641025641024,0.06351911236894167
+shared,UNSW,CIC2018,none,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,0.902706104468219,0.737186616666831
+shared,UNSW,CIC2018,none,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,1.0,0.39439517584867706
+shared,UNSW,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.9684056816673304,0.9720270590216056
+shared,UNSW,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,1.0,0.9879149612544151
+shared,UNSW,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.9495192307692307,0.8791943648259055
+shared,UNSW,CIC2018,quantile,behaviour,DDOS_attack-HOIC,7945,0.0,0.40275910771839785
+shared,UNSW,CIC2018,quantile,behaviour,DDoS_attacks-LOIC-HTTP,31356,0.0,0.7975987948760517
+shared,UNSW,CIC2018,quantile,behaviour,DoS_attacks-GoldenEye,7533,0.0,0.7278243432282407
+shared,UNSW,CIC2018,quantile,behaviour,DoS_attacks-Hulk,14879,6.720881779689495e-05,0.47228828138935125
+shared,UNSW,CIC2018,quantile,behaviour,DoS_attacks-Slowloris,1248,0.1578525641025641,0.7538151043452295
+shared,UNSW,CIC2018,quantile,no absolute counts,DDOS_attack-HOIC,7945,0.0,0.5298611142262587
+shared,UNSW,CIC2018,quantile,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,3.189182293659906e-05,0.5992172630611613
+shared,UNSW,CIC2018,quantile,no absolute counts,DoS_attacks-GoldenEye,7533,0.0,0.6269115262411715
+shared,UNSW,CIC2018,quantile,no absolute counts,DoS_attacks-Hulk,14879,0.0,0.23597189569889956
+shared,UNSW,CIC2018,quantile,no absolute counts,DoS_attacks-Slowloris,1248,0.1578525641025641,0.24423348376114623
+shared,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,0.0,0.1259854957522436
+shared,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,0.0,0.41551412750930206
+shared,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.0,0.1839599447979376
+shared,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,0.0,0.2522145832768056
+shared,UNSW,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.0,0.11475174624136475
+shared,UNSW,CIC2018,coral,behaviour,DDOS_attack-HOIC,7945,0.0,0.569489974320308
+shared,UNSW,CIC2018,coral,behaviour,DDoS_attacks-LOIC-HTTP,31356,3.189182293659906e-05,0.5550961106242638
+shared,UNSW,CIC2018,coral,behaviour,DoS_attacks-GoldenEye,7533,0.00026549847338377806,0.3357814614020836
+shared,UNSW,CIC2018,coral,behaviour,DoS_attacks-Hulk,14879,6.720881779689495e-05,0.8564527082292761
+shared,UNSW,CIC2018,coral,behaviour,DoS_attacks-Slowloris,1248,0.1578525641025641,0.49067075442887853
+shared,UNSW,CIC2018,coral,no absolute counts,DDOS_attack-HOIC,7945,0.0,0.7871981353042411
+shared,UNSW,CIC2018,coral,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,3.189182293659906e-05,0.24539514981350177
+shared,UNSW,CIC2018,coral,no absolute counts,DoS_attacks-GoldenEye,7533,0.00026549847338377806,0.23799390882842614
+shared,UNSW,CIC2018,coral,no absolute counts,DoS_attacks-Hulk,14879,6.720881779689495e-05,0.6211501174114884
+shared,UNSW,CIC2018,coral,no absolute counts,DoS_attacks-Slowloris,1248,0.1578525641025641,0.4032290759191757
+shared,UNSW,CIC2018,coral,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,0.9996224040276904,0.6987855991318175
+shared,UNSW,CIC2018,coral,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,0.024269677254751883,0.5291442857392777
+shared,UNSW,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.00026549847338377806,0.2094992948465691
+shared,UNSW,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,6.720881779689495e-05,0.4622084477728626
+shared,UNSW,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.1578525641025641,0.40416084288815946
+shared,ToN,UNSW,none,behaviour,Backdoor,2706,0.2368810051736881,0.22036334383783354
+shared,ToN,UNSW,none,behaviour,DoS,2728,0.31085043988269795,0.2580987236630621
+shared,ToN,UNSW,none,behaviour,Reconnaissance,5887,0.5087480890096824,0.3408966442053955
+shared,ToN,UNSW,none,no absolute counts,Backdoor,2706,0.21618625277161863,0.19879549260295126
+shared,ToN,UNSW,none,no absolute counts,DoS,2728,0.30168621700879766,0.24839918357641333
+shared,ToN,UNSW,none,no absolute counts,Reconnaissance,5887,0.3288602004416511,0.291158065710508
+shared,ToN,UNSW,none,"wide (flags, TTL, window)",Backdoor,2706,0.03695491500369549,0.19812193439458184
+shared,ToN,UNSW,none,"wide (flags, TTL, window)",DoS,2728,0.1092375366568915,0.29651912179880235
+shared,ToN,UNSW,none,"wide (flags, TTL, window)",Reconnaissance,5887,0.0713436385255648,0.264542153115988
+shared,ToN,UNSW,quantile,behaviour,Backdoor,2706,0.11936437546193644,0.42732531997957346
+shared,ToN,UNSW,quantile,behaviour,DoS,2728,0.09237536656891496,0.40839798228074164
+shared,ToN,UNSW,quantile,behaviour,Reconnaissance,5887,0.3782911499915067,0.632923830068512
+shared,ToN,UNSW,quantile,no absolute counts,Backdoor,2706,0.1385809312638581,0.3337078221668104
+shared,ToN,UNSW,quantile,no absolute counts,DoS,2728,0.10117302052785923,0.3627483738896718
+shared,ToN,UNSW,quantile,no absolute counts,Reconnaissance,5887,0.4698488194326482,0.5931844021527676
+shared,ToN,UNSW,quantile,"wide (flags, TTL, window)",Backdoor,2706,0.04434589800443459,0.18822248792141805
+shared,ToN,UNSW,quantile,"wide (flags, TTL, window)",DoS,2728,0.0872434017595308,0.2766875516469624
+shared,ToN,UNSW,quantile,"wide (flags, TTL, window)",Reconnaissance,5887,0.12315270935960591,0.32792121167458943
+shared,ToN,UNSW,coral,behaviour,Backdoor,2706,0.26348854397634885,0.26799057333904375
+shared,ToN,UNSW,coral,behaviour,DoS,2728,0.3680351906158358,0.29801766260519313
+shared,ToN,UNSW,coral,behaviour,Reconnaissance,5887,0.2909801257006964,0.294453087656134
+shared,ToN,UNSW,coral,no absolute counts,Backdoor,2706,0.05949741315594974,0.2326074965095771
+shared,ToN,UNSW,coral,no absolute counts,DoS,2728,0.04875366568914956,0.22805756585176365
+shared,ToN,UNSW,coral,no absolute counts,Reconnaissance,5887,0.03906913538304739,0.2219138301773211
+shared,ToN,UNSW,coral,"wide (flags, TTL, window)",Backdoor,2706,0.0,0.1903530652029783
+shared,ToN,UNSW,coral,"wide (flags, TTL, window)",DoS,2728,0.0,0.212136555485848
+shared,ToN,UNSW,coral,"wide (flags, TTL, window)",Reconnaissance,5887,0.0,0.19104547422275608
+shared,ToN,CIC2018,none,behaviour,Brute_Force_-Web,81,0.09876543209876543,0.3915091798801964
+shared,ToN,CIC2018,none,behaviour,Brute_Force_-XSS,9,0.0,0.10739839508914374
+shared,ToN,CIC2018,none,behaviour,DDOS_attack-HOIC,7945,1.0,0.9798182335790432
+shared,ToN,CIC2018,none,behaviour,DDoS_attacks-LOIC-HTTP,31356,0.9997767572394438,0.9195456981718951
+shared,ToN,CIC2018,none,behaviour,DoS_attacks-GoldenEye,7533,0.9289791583698394,0.9324032208762117
+shared,ToN,CIC2018,none,behaviour,DoS_attacks-Hulk,14879,0.10424087640298407,0.31997345248649023
+shared,ToN,CIC2018,none,behaviour,DoS_attacks-Slowloris,1248,0.29246794871794873,0.7384893605496211
+shared,ToN,CIC2018,none,behaviour,FTP-BruteForce,1,0.0,0.4489611449768084
+shared,ToN,CIC2018,none,behaviour,SQL_Injection,4,0.25,0.33330192633090105
+shared,ToN,CIC2018,none,behaviour,SSH-Bruteforce,16640,0.9998197115384615,0.8171504081847711
+shared,ToN,CIC2018,none,no absolute counts,Brute_Force_-Web,81,0.09876543209876543,0.37229045944945244
+shared,ToN,CIC2018,none,no absolute counts,Brute_Force_-XSS,9,0.0,0.21613855987556052
+shared,ToN,CIC2018,none,no absolute counts,DDOS_attack-HOIC,7945,0.9991189427312775,0.9730583391447962
+shared,ToN,CIC2018,none,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,0.9998724327082537,0.9312360769909891
+shared,ToN,CIC2018,none,no absolute counts,DoS_attacks-GoldenEye,7533,0.9261914243993097,0.8627572331801947
+shared,ToN,CIC2018,none,no absolute counts,DoS_attacks-Hulk,14879,0.9999327911822031,0.8833812691784185
+shared,ToN,CIC2018,none,no absolute counts,DoS_attacks-Slowloris,1248,0.3261217948717949,0.7107349584166476
+shared,ToN,CIC2018,none,no absolute counts,FTP-BruteForce,1,0.0,0.3174614593074717
+shared,ToN,CIC2018,none,no absolute counts,SQL_Injection,4,0.25,0.38348262736647204
+shared,ToN,CIC2018,none,no absolute counts,SSH-Bruteforce,16640,1.0,0.9073788319688179
+shared,ToN,CIC2018,none,"wide (flags, TTL, window)",Brute_Force_-Web,81,0.09876543209876543,0.5420431404307232
+shared,ToN,CIC2018,none,"wide (flags, TTL, window)",Brute_Force_-XSS,9,0.0,0.5072615769773032
+shared,ToN,CIC2018,none,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,0.0,0.08854750362143736
+shared,ToN,CIC2018,none,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,0.0,0.40596105544545813
+shared,ToN,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.8383114297092792,0.7625018441378709
+shared,ToN,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,0.0705020498689428,0.5931506575746641
+shared,ToN,CIC2018,none,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.9983974358974359,0.9007754558566511
+shared,ToN,CIC2018,none,"wide (flags, TTL, window)",FTP-BruteForce,1,0.0,0.582353069962812
+shared,ToN,CIC2018,none,"wide (flags, TTL, window)",SQL_Injection,4,0.0,0.5243512434045294
+shared,ToN,CIC2018,none,"wide (flags, TTL, window)",SSH-Bruteforce,16640,1.0,0.9068973836355523
+shared,ToN,CIC2018,quantile,behaviour,Brute_Force_-Web,81,0.1728395061728395,0.25672438064155584
+shared,ToN,CIC2018,quantile,behaviour,Brute_Force_-XSS,9,0.0,0.07923652226917201
+shared,ToN,CIC2018,quantile,behaviour,DDOS_attack-HOIC,7945,0.9998741346758968,0.642699227101595
+shared,ToN,CIC2018,quantile,behaviour,DDoS_attacks-LOIC-HTTP,31356,0.9083110090572777,0.43252288985775106
+shared,ToN,CIC2018,quantile,behaviour,DoS_attacks-GoldenEye,7533,0.8407009159697332,0.6778643596950468
+shared,ToN,CIC2018,quantile,behaviour,DoS_attacks-Hulk,14879,0.21157335842462532,0.27326161818364564
+shared,ToN,CIC2018,quantile,behaviour,DoS_attacks-Slowloris,1248,0.029647435897435896,0.08749315534354508
+shared,ToN,CIC2018,quantile,behaviour,FTP-BruteForce,1,0.0,0.09846838083740195
+shared,ToN,CIC2018,quantile,behaviour,SQL_Injection,4,0.25,0.2958031383023642
+shared,ToN,CIC2018,quantile,behaviour,SSH-Bruteforce,16640,1.0,0.8841364535475998
+shared,ToN,CIC2018,quantile,no absolute counts,Brute_Force_-Web,81,0.12345679012345678,0.29690004246292373
+shared,ToN,CIC2018,quantile,no absolute counts,Brute_Force_-XSS,9,0.0,0.18608062503323147
+shared,ToN,CIC2018,quantile,no absolute counts,DDOS_attack-HOIC,7945,0.8680931403398364,0.4673126601440224
+shared,ToN,CIC2018,quantile,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,0.8275928052047455,0.42093609532585224
+shared,ToN,CIC2018,quantile,no absolute counts,DoS_attacks-GoldenEye,7533,0.8559670781893004,0.5826187793555496
+shared,ToN,CIC2018,quantile,no absolute counts,DoS_attacks-Hulk,14879,0.9836010484575576,0.7121883158387498
+shared,ToN,CIC2018,quantile,no absolute counts,DoS_attacks-Slowloris,1248,0.010416666666666666,0.06094253020786243
+shared,ToN,CIC2018,quantile,no absolute counts,FTP-BruteForce,1,0.0,0.14683620713921564
+shared,ToN,CIC2018,quantile,no absolute counts,SQL_Injection,4,0.25,0.35449617955318136
+shared,ToN,CIC2018,quantile,no absolute counts,SSH-Bruteforce,16640,1.0,0.6110271667162683
+shared,ToN,CIC2018,quantile,"wide (flags, TTL, window)",Brute_Force_-Web,81,0.2345679012345679,0.4474407313615972
+shared,ToN,CIC2018,quantile,"wide (flags, TTL, window)",Brute_Force_-XSS,9,0.6666666666666666,0.704734299365813
+shared,ToN,CIC2018,quantile,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,0.0,0.22505063619184257
+shared,ToN,CIC2018,quantile,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,0.7426329889016456,0.6056321810746796
+shared,ToN,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.8369839373423603,0.7069897307032801
+shared,ToN,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,0.9999327911822031,0.9053234113139923
+shared,ToN,CIC2018,quantile,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.967948717948718,0.7785430030932641
+shared,ToN,CIC2018,quantile,"wide (flags, TTL, window)",FTP-BruteForce,1,0.0,0.253491259730958
+shared,ToN,CIC2018,quantile,"wide (flags, TTL, window)",SQL_Injection,4,0.75,0.7853211489802238
+shared,ToN,CIC2018,quantile,"wide (flags, TTL, window)",SSH-Bruteforce,16640,1.0,0.9756489430526187
+shared,ToN,CIC2018,coral,behaviour,Brute_Force_-Web,81,0.2716049382716049,0.3234241079204647
+shared,ToN,CIC2018,coral,behaviour,Brute_Force_-XSS,9,0.0,0.2962615154664935
+shared,ToN,CIC2018,coral,behaviour,DDOS_attack-HOIC,7945,0.9983637507866583,0.7543020691564937
+shared,ToN,CIC2018,coral,behaviour,DDoS_attacks-LOIC-HTTP,31356,0.9999043245311902,0.5062482464394965
+shared,ToN,CIC2018,coral,behaviour,DoS_attacks-GoldenEye,7533,0.9299084030266827,0.5784681976614167
+shared,ToN,CIC2018,coral,behaviour,DoS_attacks-Hulk,14879,0.9985214060084683,0.621351826318531
+shared,ToN,CIC2018,coral,behaviour,DoS_attacks-Slowloris,1248,0.05929487179487179,0.2939081077672996
+shared,ToN,CIC2018,coral,behaviour,FTP-BruteForce,1,0.0,0.18714246841836946
+shared,ToN,CIC2018,coral,behaviour,SQL_Injection,4,0.25,0.30674899992806365
+shared,ToN,CIC2018,coral,behaviour,SSH-Bruteforce,16640,1.0,0.5321737584747029
+shared,ToN,CIC2018,coral,no absolute counts,Brute_Force_-Web,81,0.5679012345679012,0.3548125084490484
+shared,ToN,CIC2018,coral,no absolute counts,Brute_Force_-XSS,9,0.6666666666666666,0.32929195150168045
+shared,ToN,CIC2018,coral,no absolute counts,DDOS_attack-HOIC,7945,0.9994965387035871,0.7093183814228801
+shared,ToN,CIC2018,coral,no absolute counts,DDoS_attacks-LOIC-HTTP,31356,0.9999362163541268,0.5056552785199926
+shared,ToN,CIC2018,coral,no absolute counts,DoS_attacks-GoldenEye,7533,0.940130094251958,0.6326083861590716
+shared,ToN,CIC2018,coral,no absolute counts,DoS_attacks-Hulk,14879,0.998723032461859,0.4745100434416015
+shared,ToN,CIC2018,coral,no absolute counts,DoS_attacks-Slowloris,1248,0.12740384615384615,0.32301121409928
+shared,ToN,CIC2018,coral,no absolute counts,FTP-BruteForce,1,0.0,0.24473066084503337
+shared,ToN,CIC2018,coral,no absolute counts,SQL_Injection,4,0.75,0.3861804367476003
+shared,ToN,CIC2018,coral,no absolute counts,SSH-Bruteforce,16640,1.0,0.5529811601047234
+shared,ToN,CIC2018,coral,"wide (flags, TTL, window)",Brute_Force_-Web,81,0.3950617283950617,0.30682409534028776
+shared,ToN,CIC2018,coral,"wide (flags, TTL, window)",Brute_Force_-XSS,9,0.6666666666666666,0.32670901877052744
+shared,ToN,CIC2018,coral,"wide (flags, TTL, window)",DDOS_attack-HOIC,7945,1.0,0.570868580135811
+shared,ToN,CIC2018,coral,"wide (flags, TTL, window)",DDoS_attacks-LOIC-HTTP,31356,0.9999681081770634,0.6528016730797411
+shared,ToN,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-GoldenEye,7533,0.9515465286074605,0.475131750494108
+shared,ToN,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-Hulk,14879,1.0,0.6420213605542767
+shared,ToN,CIC2018,coral,"wide (flags, TTL, window)",DoS_attacks-Slowloris,1248,0.9903846153846154,0.38155542733452164
+shared,ToN,CIC2018,coral,"wide (flags, TTL, window)",FTP-BruteForce,1,0.0,0.18406640665317597
+shared,ToN,CIC2018,coral,"wide (flags, TTL, window)",SQL_Injection,4,0.75,0.45575053092169254
+shared,ToN,CIC2018,coral,"wide (flags, TTL, window)",SSH-Bruteforce,16640,1.0,0.6406511321478799
+shared,CIC2018,UNSW,none,behaviour,DoS,2728,0.002932551319648094,0.22728190902683093
+shared,CIC2018,UNSW,none,no absolute counts,DoS,2728,0.009164222873900294,0.3033223789798059
+shared,CIC2018,UNSW,none,"wide (flags, TTL, window)",DoS,2728,0.0021994134897360706,0.13927735869767346
+shared,CIC2018,UNSW,quantile,behaviour,DoS,2728,0.014296187683284457,0.6117620090727507
+shared,CIC2018,UNSW,quantile,no absolute counts,DoS,2728,0.006964809384164223,0.5865577583968354
+shared,CIC2018,UNSW,quantile,"wide (flags, TTL, window)",DoS,2728,0.005131964809384164,0.5366410794182712
+shared,CIC2018,UNSW,coral,behaviour,DoS,2728,0.7562316715542522,0.9422742488621468
+shared,CIC2018,UNSW,coral,no absolute counts,DoS,2728,0.7401026392961877,0.9102017686905459
+shared,CIC2018,UNSW,coral,"wide (flags, TTL, window)",DoS,2728,0.011730205278592375,0.7179525383289221
+shared,CIC2018,ToN,none,behaviour,ddos,25753,0.025162117034908553,0.40036816347677234
+shared,CIC2018,ToN,none,behaviour,dos,2916,0.0,0.8541691846840269
+shared,CIC2018,ToN,none,behaviour,injection,15002,0.05265964538061592,0.5260864921856645
+shared,CIC2018,ToN,none,behaviour,password,46836,0.03273123238534461,0.29914234446289967
+shared,CIC2018,ToN,none,behaviour,xss,87453,0.1263764536379541,0.7724441028693435
+shared,CIC2018,ToN,none,no absolute counts,ddos,25753,0.023181765231235194,0.5873867315575827
+shared,CIC2018,ToN,none,no absolute counts,dos,2916,0.0003429355281207133,0.7629146862468215
+shared,CIC2018,ToN,none,no absolute counts,injection,15002,0.05985868550859885,0.5362823956673733
+shared,CIC2018,ToN,none,no absolute counts,password,46836,0.03273123238534461,0.24649181005120951
+shared,CIC2018,ToN,none,no absolute counts,xss,87453,0.07769887825460534,0.7314315003645047
+shared,CIC2018,ToN,none,"wide (flags, TTL, window)",ddos,25753,0.00834854191744651,0.4762399820007531
+shared,CIC2018,ToN,none,"wide (flags, TTL, window)",dos,2916,0.0,0.8476309949287228
+shared,CIC2018,ToN,none,"wide (flags, TTL, window)",injection,15002,0.2778962804959339,0.8122570440390704
+shared,CIC2018,ToN,none,"wide (flags, TTL, window)",password,46836,0.018148432829447433,0.614273112264345
+shared,CIC2018,ToN,none,"wide (flags, TTL, window)",xss,87453,0.24035767783838177,0.8360023267809638
+shared,CIC2018,ToN,quantile,behaviour,ddos,25753,0.00011649128256902109,0.3886855444980164
+shared,CIC2018,ToN,quantile,behaviour,dos,2916,0.0,0.662410777442922
+shared,CIC2018,ToN,quantile,behaviour,injection,15002,0.0002666311158512198,0.2616410877106048
+shared,CIC2018,ToN,quantile,behaviour,password,46836,0.054488000683235116,0.3001052135910658
+shared,CIC2018,ToN,quantile,behaviour,xss,87453,0.01598572947754794,0.43973722178094304
+shared,CIC2018,ToN,quantile,no absolute counts,ddos,25753,7.766085504601405e-05,0.43932082557893987
+shared,CIC2018,ToN,quantile,no absolute counts,dos,2916,0.0,0.5988122927738018
+shared,CIC2018,ToN,quantile,no absolute counts,injection,15002,0.0001333155579256099,0.27697709961209077
+shared,CIC2018,ToN,quantile,no absolute counts,password,46836,0.030553420445810914,0.25231498809890884
+shared,CIC2018,ToN,quantile,no absolute counts,xss,87453,0.015939990623534926,0.46797090879898323
+shared,CIC2018,ToN,quantile,"wide (flags, TTL, window)",ddos,25753,0.0,0.2257602638322642
+shared,CIC2018,ToN,quantile,"wide (flags, TTL, window)",dos,2916,0.0,0.8182193974628011
+shared,CIC2018,ToN,quantile,"wide (flags, TTL, window)",injection,15002,0.0,0.15254618192835073
+shared,CIC2018,ToN,quantile,"wide (flags, TTL, window)",password,46836,0.0,0.13813109771019527
+shared,CIC2018,ToN,quantile,"wide (flags, TTL, window)",xss,87453,0.0,0.26696894632601154
+shared,CIC2018,ToN,coral,behaviour,ddos,25753,0.017318370675261135,0.2298797632545025
+shared,CIC2018,ToN,coral,behaviour,dos,2916,0.0003429355281207133,0.6952156240528728
+shared,CIC2018,ToN,coral,behaviour,injection,15002,0.08792161045193975,0.4904003820560896
+shared,CIC2018,ToN,coral,behaviour,password,46836,0.06620975318131352,0.592445696413868
+shared,CIC2018,ToN,coral,behaviour,xss,87453,0.10132299635232639,0.4303238714367386
+shared,CIC2018,ToN,coral,no absolute counts,ddos,25753,0.022676969673436104,0.16239338555232938
+shared,CIC2018,ToN,coral,no absolute counts,dos,2916,0.009602194787379973,0.2474033564560102
+shared,CIC2018,ToN,coral,no absolute counts,injection,15002,0.16177842954272764,0.39717183515867877
+shared,CIC2018,ToN,coral,no absolute counts,password,46836,0.11516781962592877,0.5414735057492871
+shared,CIC2018,ToN,coral,no absolute counts,xss,87453,0.21068459629743977,0.4359231833698665
+shared,CIC2018,ToN,coral,"wide (flags, TTL, window)",ddos,25753,0.02325942608628121,0.27344991569121146
+shared,CIC2018,ToN,coral,"wide (flags, TTL, window)",dos,2916,0.0003429355281207133,0.8671809075895845
+shared,CIC2018,ToN,coral,"wide (flags, TTL, window)",injection,15002,0.3950139981335822,0.6532459590967511
+shared,CIC2018,ToN,coral,"wide (flags, TTL, window)",password,46836,0.5726150824152362,0.8339338039005177
+shared,CIC2018,ToN,coral,"wide (flags, TTL, window)",xss,87453,0.23737321761403268,0.7077496039943967

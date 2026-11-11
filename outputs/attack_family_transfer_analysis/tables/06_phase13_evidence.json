@@ -1,0 +1,18 @@
+{
+  "n_attack_families_total": 14,
+  "n_attack_families_eligible_n_ge_300": 11,
+  "spearman_corr_mean_semantic_shift_vs_detection_change": 0.3181818181818182,
+  "poor_transfer_families": [
+    "FTP-Patator",
+    "SSH-Patator",
+    "DDoS",
+    "DoS GoldenEye"
+  ],
+  "improved_transfer_families": [
+    "DoS Slowhttptest",
+    "DoS slowloris",
+    "PortScan",
+    "Web Attack \ufffd XSS"
+  ],
+  "interpretation_rule": "Negative correlation means larger semantic shift tends to accompany larger detection-rate loss. This is descriptive evidence, not causal proof."
+}

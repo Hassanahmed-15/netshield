@@ -1,0 +1,23 @@
+file,label,rows
+Monday-WorkingHours.pcap_ISCX.csv,BENIGN,529918
+Wednesday-workingHours.pcap_ISCX.csv,BENIGN,440031
+Tuesday-WorkingHours.pcap_ISCX.csv,BENIGN,432074
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,BENIGN,288566
+Wednesday-workingHours.pcap_ISCX.csv,DoS Hulk,231073
+Friday-WorkingHours-Morning.pcap_ISCX.csv,BENIGN,189067
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,BENIGN,168186
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,PortScan,158930
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,DDoS,128027
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv,BENIGN,127537
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv,BENIGN,97718
+Wednesday-workingHours.pcap_ISCX.csv,DoS GoldenEye,10293
+Tuesday-WorkingHours.pcap_ISCX.csv,FTP-Patator,7938
+Tuesday-WorkingHours.pcap_ISCX.csv,SSH-Patator,5897
+Wednesday-workingHours.pcap_ISCX.csv,DoS slowloris,5796
+Wednesday-workingHours.pcap_ISCX.csv,DoS Slowhttptest,5499
+Friday-WorkingHours-Morning.pcap_ISCX.csv,Bot,1966
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack  Brute Force,1507
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack  XSS,652
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv,Infiltration,36
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv,Web Attack  Sql Injection,21
+Wednesday-workingHours.pcap_ISCX.csv,Heartbleed,11
